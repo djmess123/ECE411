@@ -2,7 +2,7 @@
 
 MP0 - Setup
 
-MP1 - Validation Practice
+MP1 - Verification Practice
 
 MP2 - Baseline RISC-V cpu
 
