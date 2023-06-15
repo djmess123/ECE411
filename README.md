@@ -1,5 +1,7 @@
-# ECE 411 (fa22) repo for NetID: davidm12
+# ECE 411 (fa22) repo
 
-GitHub username at initialization time: davidm12uiuc
-
-For next steps, please refer to the instructions provided by your course.
+MP0 - Setup
+MP1 - Validation Practice
+MP2 - Baseline RISC-V cpu
+MP3 - Baseline Cache
+MP4 - Final project, advanced CPU with extras
