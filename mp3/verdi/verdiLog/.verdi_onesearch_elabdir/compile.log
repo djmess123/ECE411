@@ -1,0 +1,105 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'AlmaLinux release 8.6 (Sky Tiger)' is not supported on 
+  'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '4.18.0-372.19.1.el8_6.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs /home/davidm12/ece411/mp3/pkg/rv32i_mux_types.sv /home/davidm12/ece411/mp3/pkg/rv32i_types.sv \
+/home/davidm12/ece411/mp3/pkg/cache_mux_types.sv /home/davidm12/ece411/mp3/hdl/cacheline_adaptor.sv \
+/home/davidm12/ece411/mp3/hdl/cpu/register.sv /home/davidm12/ece411/mp3/hdl/cpu/cpu.sv \
+/home/davidm12/ece411/mp3/hdl/cpu/pc_reg.sv /home/davidm12/ece411/mp3/hdl/cpu/cmp.sv \
+/home/davidm12/ece411/mp3/hdl/cpu/control.sv /home/davidm12/ece411/mp3/hdl/cpu/regfile.sv \
+/home/davidm12/ece411/mp3/hdl/cpu/ir.sv /home/davidm12/ece411/mp3/hdl/cpu/datapath.sv \
+/home/davidm12/ece411/mp3/hdl/cpu/alu.sv /home/davidm12/ece411/mp3/hdl/cache/cache_datapath.sv \
+/home/davidm12/ece411/mp3/hdl/cache/cache_control.sv /home/davidm12/ece411/mp3/hdl/cache/cache_way.sv \
+/home/davidm12/ece411/mp3/hdl/cache/array.sv /home/davidm12/ece411/mp3/hdl/cache/bus_adapter.sv \
+/home/davidm12/ece411/mp3/hdl/cache/cache.sv /home/davidm12/ece411/mp3/hdl/cache/data_array.sv \
+/home/davidm12/ece411/mp3/hdl/mp3.sv /home/davidm12/ece411/mp3/hvl/rvfimon.v /home/davidm12/ece411/mp3/hvl/tb_itf.sv \
+/home/davidm12/ece411/mp3/hvl/cache_monitor_itf.sv /home/davidm12/ece411/mp3/hvl/shadow_memory.sv \
+/home/davidm12/ece411/mp3/hvl/param_memory.sv /home/davidm12/ece411/mp3/hvl/top.sv \
+/home/davidm12/ece411/mp3/hvl/source_tb.sv -full64 -lca -sverilog +lint=all,noNS \
+-timescale=1ns/10ps -debug_acc+all -kdb -fsdb -msg_config=../warn.config -l compile.log \
+
+                         Chronologic VCS (TM)
+      Version R-2020.12-SP1-1_Full64 -- Thu Oct  6 17:51:01 2022
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Parsing design file '/home/davidm12/ece411/mp3/pkg/rv32i_mux_types.sv'
+Parsing design file '/home/davidm12/ece411/mp3/pkg/rv32i_types.sv'
+Parsing design file '/home/davidm12/ece411/mp3/pkg/cache_mux_types.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cacheline_adaptor.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/register.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/cpu.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/pc_reg.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/cmp.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/control.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/regfile.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/ir.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/datapath.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cpu/alu.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/cache_datapath.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/cache_control.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/cache_way.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/array.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/bus_adapter.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/cache.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/cache/data_array.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hdl/mp3.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/rvfimon.v'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/tb_itf.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/cache_monitor_itf.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/shadow_memory.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/param_memory.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/top.sv'
+Parsing design file '/home/davidm12/ece411/mp3/hvl/source_tb.sv'
+Top Level Modules:
+       mp3_tb
+TimeScale is 1 ns / 10 ps
+
+Lint-[UI] Unused input
+/home/davidm12/ece411/mp3/hdl/cache/cache_datapath.sv, 38
+  Following is an unused input.
+  Source info: mem_write
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+29 modules and 0 UDP read.
+recompiling module mp3
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+make[1]: Entering directory '/home/davidm12/ece411/mp3/sim/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic --no-relax  -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o \
+
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib -L/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _1267993_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/vcs_save_restore_new.o \
+/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/pli.a \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/home/davidm12/ece411/mp3/sim/csrc'
+CPU time: 1.380 seconds to compile + .412 seconds to elab + .345 seconds to link

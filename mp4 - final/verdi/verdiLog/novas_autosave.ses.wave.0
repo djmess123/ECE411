@@ -1,0 +1,221 @@
+Magic 271485
+Revision Verdi_R-2020.12-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1754 841 194 1
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/davidm12/411mp4/mp4/sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 704713993.803001 735959839.367254
+cursor 4522425000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 36
+; marker line index
+markerPos 130
+
+; rename signal list
+; addRenameSig new_name org_name
+activeDirFile "" "/home/davidm12/411mp4/mp4/sim/dump.fsdb"
+
+addRenameSig "/mp4_tb/dut/AR/arbiter_state[31:0]" "/mp4_tb/dut/AR/state[31:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+aliasmapname gcacheline_adaptor.state.macro
+nalias WAITW		3'b010		NULL
+nalias R		3'b011		NULL
+nalias IDLE		3'b000		NULL
+nalias W		3'b100		NULL
+nalias WAITR		3'b001		NULL
+nalias DONE		3'b101		NULL
+
+aliasmapname arbiter.state
+nalias waiting		32'b00000000000000000000000000000000		NULL
+nalias icache		32'b00000000000000000000000000000001		NULL
+nalias dcache		32'b00000000000000000000000000000010		NULL
+
+aliasmapname gcache_control.state
+nalias check_hit		32'b00000000000000000000000000000000		NULL
+nalias read_mem		32'b00000000000000000000000000000001		NULL
+
+aliasmapname cacheline_adaptor.state.macro
+nalias WAITW		3'b010		NULL
+nalias R		3'b011		NULL
+nalias IDLE		3'b000		NULL
+nalias W		3'b100		NULL
+nalias WAITR		3'b001		NULL
+nalias DONE		3'b101		NULL
+
+addGroup "Clock and Reset"
+activeDirFile "" "/home/davidm12/411mp4/mp4/sim/dump.fsdb"
+addSignal -h 15 /mp4_tb/dut/clk
+addSignal -h 15 -holdScope rst
+addGroup "RVFI"
+addSignal -h 15 /mp4_tb/dut/DP/ID/rvfi.commit
+addSignal -h 15 /mp4_tb/dut/DP/rvfi_IDEX.commit
+addSignal -h 15 -holdScope rvfi_EXMEM.commit
+addSignal -h 15 -holdScope rvfi_MEMWB.commit
+addSignal -h 15 /mp4_tb/rvfi/order[63:0]
+addSignal -h 15 /mp4_tb/dut/DP/rvfi_IDEX
+addSignal -h 15 -holdScope rvfi_EXMEM
+addSignal -h 15 -holdScope rvfi_MEMWB
+addGroup "Pipeline Status"
+addSignal -h 15 /mp4_tb/dut/DP/IF/pc_out[31:0]
+addSignal -h 15 -UNSIGNED /mp4_tb/dut/DP/ID/opcode[6:0]
+addSignal -h 15 -UNSIGNED /mp4_tb/dut/DP/ctrl_IDEX.opcode[6:0]
+addSignal -h 15 -UNSIGNED -holdScope ctrl_EXMEM.opcode[6:0]
+addSignal -h 15 -UNSIGNED -holdScope ctrl_MEMWB.opcode[6:0]
+addSignal -h 15 -holdScope rvfi_MEMWB.commit
+addSignal -h 15 -holdScope ctrl_IDEX
+addSignal -h 15 -holdScope ctrl_EXMEM
+addSignal -h 15 -holdScope ctrl_MEMWB
+addGroup "Memory" -e FALSE
+addSignal -h 15 /mp4_tb/dut/DP/instr_read
+addSignal -h 15 -holdScope instr_mem_address[31:0]
+addSignal -h 15 -holdScope instr_mem_rdata[31:0]
+addSignal -h 15 -holdScope instr_mem_resp
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 -UNSIGNED -HEX /mp4_tb/dut/DP/data_mem_address[31:0]
+addSignal -h 15 -holdScope data_mem_wdata[31:0]
+addSignal -h 15 /mp4_tb/rvfi/order[63:0]
+addSignal -h 15 -UNSIGNED -HEX /mp4_tb/dut/DP/data_mem_rdata[31:0]
+addSignal -h 15 -holdScope data_mem_resp
+addSignal -h 15 -holdScope data_mbe[3:0]
+addGroup "Cache" -e FALSE
+aliasname arbiter.state
+addSignal -h 15 -UNSIGNED /mp4_tb/dut/AR/arbiter_state[31:0]
+addGroup "Stalling" -e FALSE
+addSignal -h 15 /mp4_tb/dut/DP/ID/stall
+addSignal -h 15 /mp4_tb/dut/DP/flush
+addGroup "Branch Predictor"
+addSignal -h 15 /mp4_tb/dut/DP/BP/w_hit
+addSignal -h 15 -holdScope load
+addSignal -h 15 -holdScope w_taken
+addGroup "Branch" -e FALSE
+addSignal -h 15 -UNSIGNED /mp4_tb/dut/DP/EX/CMP/cmpop[2:0]
+addSignal -h 15 /mp4_tb/dut/DP/EX/br_en
+addSignal -h 15 -holdScope jmp_en
+addSignal -h 15 /mp4_tb/dut/DP/IF/load_pc
+addSignal -h 15 -holdScope instr_read
+addGroup "ALU" -e FALSE
+addSignal -h 15 -UNSIGNED /mp4_tb/dut/DP/EX/ALU/aluop[2:0]
+addSignal -h 15 -UNSIGNED /mp4_tb/dut/DP/EX/ctrl_IDEX.opcode[6:0]
+addSignal -h 15 /mp4_tb/dut/DP/ID/rs1_data_IDEX[31:0]
+addSignal -h 15 -holdScope rs2_data_IDEX[31:0]
+addSignal -h 15 /mp4_tb/dut/DP/EX/rs1_data_IDEX[31:0]
+addSignal -h 15 -holdScope rs2_data_IDEX[31:0]
+addSignal -h 15 -holdScope alumux1_out[31:0]
+addSignal -h 15 -holdScope alumux2_out[31:0]
+addSignal -h 15 -holdScope alu_out[31:0]
+addSignal -h 15 -holdScope br_en
+addSignal -h 15 -holdScope i_imm_IDEX[31:0]
+addSignal -h 15 -holdScope s_imm_IDEX[31:0]
+addSignal -h 15 -holdScope b_imm_IDEX[31:0]
+addSignal -h 15 -holdScope u_imm_IDEX[31:0]
+addSignal -h 15 -holdScope j_imm_IDEX[31:0]
+addSignal -h 15 -holdScope rd_IDEX[4:0]
+addSignal -h 15 -holdScope pc_addr_IDEX[31:0]
+addSignal -h 15 -holdScope funct3_IDEX[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cmp_mux_out[31:0]
+addSignal -h 15 /mp4_tb/dut/DP/EX/CMP/a[31:0]
+addSignal -h 15 -holdScope b[31:0]
+addSignal -h 15 /mp4_tb/dut/DP/EX/ctrl.cmpmux_sel
+addSignal -h 15 -holdScope rs2_data[31:0]
+addGroup "Registers"
+addSignal -h 15 -UNSIGNED -HEX /mp4_tb/dut/DP/ID/regfile/data[0][31:0]
+addSignal -h 15 -holdScope data[1][31:0]
+addSignal -h 15 -holdScope data[2][31:0]
+addSignal -h 15 -holdScope data[3][31:0]
+addSignal -h 15 -holdScope data[4][31:0]
+addSignal -h 15 -holdScope data[5][31:0]
+addSignal -h 15 -holdScope data[6][31:0]
+addSignal -h 15 -holdScope data[7][31:0]
+addSignal -h 15 -holdScope data[8][31:0]
+addSignal -h 15 -holdScope data[9][31:0]
+addSignal -h 15 -holdScope data[10][31:0]
+addSignal -h 15 -holdScope data[11][31:0]
+addSignal -h 15 -holdScope data[12][31:0]
+addSignal -h 15 -holdScope data[13][31:0]
+addSignal -h 15 -holdScope data[14][31:0]
+addSignal -h 15 -holdScope data[15][31:0]
+addSignal -h 15 -holdScope data[16][31:0]
+addSignal -h 15 -holdScope data[17][31:0]
+addSignal -h 15 -holdScope data[18][31:0]
+addSignal -h 15 -holdScope data[19][31:0]
+addSignal -h 15 -holdScope data[20][31:0]
+addSignal -h 15 -holdScope data[21][31:0]
+addSignal -h 15 -holdScope data[22][31:0]
+addSignal -h 15 -holdScope data[23][31:0]
+addSignal -h 15 -holdScope data[24][31:0]
+addSignal -h 15 -holdScope data[25][31:0]
+addSignal -h 15 -holdScope data[26][31:0]
+addSignal -h 15 -holdScope data[27][31:0]
+addSignal -h 15 -holdScope data[28][31:0]
+addSignal -h 15 -holdScope data[29][31:0]
+addSignal -h 15 -holdScope data[30][31:0]
+addSignal -h 15 -holdScope data[31][31:0]
+addGroup "rvfi official" -e FALSE
+addSubGroup "rvfi(rvfi_itf)" -e FALSE
+addSignal -h 15 /mp4_tb/rvfi/clk
+addSignal -h 15 -holdScope rst
+addSignal -h 15 -holdScope halt
+addSignal -h 15 -holdScope commit
+addSignal -h 15 -holdScope order[63:0]
+addSignal -h 15 -holdScope inst[31:0]
+addSignal -h 15 -holdScope trap
+addSignal -h 15 -holdScope rs1_addr[4:0]
+addSignal -h 15 -holdScope rs2_addr[4:0]
+addSignal -h 15 -holdScope rs1_rdata[31:0]
+addSignal -h 15 -holdScope rs2_rdata[31:0]
+addSignal -h 15 -holdScope load_regfile
+addSignal -h 15 -holdScope rd_addr[4:0]
+addSignal -h 15 -holdScope rd_wdata[31:0]
+addSignal -h 15 -holdScope pc_rdata[31:0]
+addSignal -h 15 -holdScope pc_wdata[31:0]
+addSignal -h 15 -holdScope mem_addr[31:0]
+addSignal -h 15 -holdScope mem_rmask[3:0]
+addSignal -h 15 -holdScope mem_wmask[3:0]
+addSignal -h 15 -holdScope mem_rdata[31:0]
+addSignal -h 15 -holdScope mem_wdata[31:0]
+addSignal -h 15 -holdScope errcode[15:0]
+endSubGroup "rvfi(rvfi_itf)"
+addGroup "G12"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,16 @@
+/home/davidm12/ece411/mp2/hdl/alu.sv
+/home/davidm12/ece411/mp2/hdl/cmp.sv
+/home/davidm12/ece411/mp2/hdl/control.sv
+/home/davidm12/ece411/mp2/hdl/datapath.sv
+/home/davidm12/ece411/mp2/hdl/ir.sv
+/home/davidm12/ece411/mp2/hdl/mp2.sv
+/home/davidm12/ece411/mp2/hdl/pc_reg.sv
+/home/davidm12/ece411/mp2/hdl/regfile.sv
+/home/davidm12/ece411/mp2/hdl/register.sv
+/home/davidm12/ece411/mp2/hvl/memory.sv
+/home/davidm12/ece411/mp2/hvl/rvfimon.v
+/home/davidm12/ece411/mp2/hvl/source_tb.sv
+/home/davidm12/ece411/mp2/hvl/tb_itf.sv
+/home/davidm12/ece411/mp2/hvl/top.sv
+/home/davidm12/ece411/mp2/pkg/rv32i_mux_types.sv
+/home/davidm12/ece411/mp2/pkg/rv32i_types.sv

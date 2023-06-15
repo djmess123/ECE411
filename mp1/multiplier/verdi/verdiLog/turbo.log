@@ -1,0 +1,4 @@
+Command Line: /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/bin/Novas -ssf /home/davidm12/ece411/mp1/multiplier/sim/dump.fsdb
+uname(Linux fastx3-20.ews.illinois.edu 4.18.0-372.19.1.el8_6.x86_64 #1 SMP Tue Aug 2 13:42:59 EDT 2022 x86_64)
+Disabled Warning Message: Failed to add certain signals to waveform because they cannot be found in waveform file, check "List of Signal(s) Not Found".  
+au time 227.843408 8.983158 3.088764 delta 324419584 324419584 total 816054272 816054272

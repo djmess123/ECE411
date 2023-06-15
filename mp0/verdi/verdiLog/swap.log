@@ -1,0 +1,45 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 155648 bytes [need 152K bytes if disable swap]
+
+used block: 5 [memory(5) file(0)]
+                 [ 8K(3) 64K(2) { total 152K bytes } ]
+overhead: (9538) bytes for (5) blocks [Average: (1907) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 2(times) 10K(bytes) [2K bytes compressed data from file]
+access => 399299(times) 3124M(bytes)
+          [hit ratio: 99.9995%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/ece411/mp0/verdi/verdiLog)
+used swap file number: (3)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (5)
+closeHead: (1)
+closeTail: (3)
+openCnt: (3)
+fid(4): fd(0) fileName(/home/davidm12/ece411/mp0/sim/simv.daidir/kdb.elab++/work.lib++/mp0.sv.tdc)
+	size(790) lastModTime(1661447320) curModTime(1661447320)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(3): fd(1073741825) fileName(/home/davidm12/ece411/mp0/sim/simv.daidir/kdb.elab++/work.lib++/regfile.sv.tdc)
+	size(1367) lastModTime(1661447320) curModTime(1661447320)
+	mode(rb)	hot(0) cool(2) pos(0)
+fid(2): fd(26) fileName(/home/davidm12/ece411/mp0/verdi/verdiLog/_swap_0001#2122484214#1224394)
+	size(0) lastModTime(0) curModTime(1662050163)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/davidm12/ece411/mp0/sim/simv.daidir/kdb.elab++/work.lib++/mp0_tb.sv.tdc)
+	size(2817) lastModTime(1661447320) curModTime(1661447320)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(18c4db40) pre(177ce980) next(0)
+version(200506)
+date(Mar 24 2021 03:58:02)

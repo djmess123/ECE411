@@ -1,0 +1,3 @@
+Command Line: /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/bin/Novas -ssf /home/davidm12/ece411/mp3/sim/dump.fsdb
+uname(Linux eceb-2022-36.ews.illinois.edu 4.18.0-425.3.1.el8.x86_64 #1 SMP Tue Nov 8 14:08:25 EST 2022 x86_64)
+au time 6291.083937 46.398579 45.825631 delta 326696960 326696960 total 820510720 820510720

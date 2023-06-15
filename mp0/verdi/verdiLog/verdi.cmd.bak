@@ -1,0 +1,29 @@
+simSetSimulator "-vcssv" -exec "/home/davidm12/ece411/mp0/sim/simv" -args \
+           "+lint=all"
+debImport "-dbdir" "/home/davidm12/ece411/mp0/sim/simv.daidir"
+debLoadSimResult /home/davidm12/ece411/mp0/sim/dump.fsdb
+wvCreateWindow
+srcHBSelect "mp0_tb.mp0" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0" -win $_nTrace1
+srcSetScope "mp0_tb.mp0" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf" -win $_nTrace1
+srcSetScope "mp0_tb.mp0.rf" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf.unnamed\$\$_0" -win $_nTrace1
+srcSetScope "mp0_tb.mp0.rf.unnamed\$\$_0" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0" -win $_nTrace1
+srcSetScope "mp0_tb.mp0" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf.unnamed\$\$_0" -win $_nTrace1
+srcSetScope "mp0_tb.mp0.rf.unnamed\$\$_0" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf" -win $_nTrace1
+srcSetScope "mp0_tb.mp0.rf" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf" -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf.unnamed\$\$_0" -win $_nTrace1
+srcSetScope "mp0_tb.mp0.rf.unnamed\$\$_0" -delim "." -win $_nTrace1
+srcHBSelect "mp0_tb.mp0.rf.unnamed\$\$_0" -win $_nTrace1

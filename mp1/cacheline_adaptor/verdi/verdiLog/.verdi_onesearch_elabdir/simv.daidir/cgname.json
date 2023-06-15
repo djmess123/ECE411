@@ -1,0 +1,26 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "cacheline_adaptor": [
+        "cacheline_adaptor",
+        "ItPcz",
+        "module",
+        2
+    ],
+    "testbench": [
+        "testbench",
+        "iAVhC",
+        "module",
+        3
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        4
+    ]
+}

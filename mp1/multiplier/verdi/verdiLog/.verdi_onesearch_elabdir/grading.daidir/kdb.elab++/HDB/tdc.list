@@ -1,0 +1,10 @@
+/home/davidm12/ece411/mp1/multiplier/grader/grader.sv
+/home/davidm12/ece411/mp1/multiplier/grader/grader_itf.sv
+/home/davidm12/ece411/mp1/multiplier/grader/transaction_monitor.sv
+/home/davidm12/ece411/mp1/multiplier/grader/transaction_scoreboard.sv
+/home/davidm12/ece411/mp1/multiplier/hdl/add_shift_multiplier.sv
+/home/davidm12/ece411/mp1/multiplier/hdl/multiplier_itf.sv
+/home/davidm12/ece411/mp1/multiplier/hvl/testbench.sv
+/home/davidm12/ece411/mp1/multiplier/hvl/top.sv
+/home/davidm12/ece411/mp1/multiplier/pkg/design_types.sv
+/home/davidm12/ece411/mp1/multiplier/pkg/grader_types.sv

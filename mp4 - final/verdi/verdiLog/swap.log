@@ -1,0 +1,322 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 81920 bytes [need 80K bytes if disable swap]
+
+used block: 3 [memory(3) file(0)]
+                 [ 8K(2) 64K(1) { total 80K bytes } ]
+overhead: (9538) bytes for (3) blocks [Average: (3179) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 15K(bytes) [3K bytes compressed data from file]
+access => 736218(times) 5758M(bytes)
+          [hit ratio: 99.9999%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/411mp4/mp4/verdi/verdiLog)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (4)
+closeHead: (1)
+closeTail: (2)
+openCnt: (1)
+fid(3): fd(0) fileName(NULL)
+	mode(rb)	hot(1) cool(0) pos(0)
+fid(2): fd(22) fileName(/home/davidm12/411mp4/mp4/verdi/verdiLog/_swap_0001#-1367302469#1248166)
+	size(0) lastModTime(0) curModTime(1670472876)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(rb)	hot(2) cool(3) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Wed Dec  7 22:18:02 2022
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 163840 bytes [need 80K bytes if disable swap]
+
+used block: 6 [memory(6) file(0)]
+                 [ 8K(4) 64K(2) { total 160K bytes } ]
+overhead: (9538) bytes for (6) blocks [Average: (1589) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 2(times) 30K(bytes) [7K bytes compressed data from file]
+access => 796791(times) 6235M(bytes)
+          [hit ratio: 99.9997%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/411mp4/mp4/verdi/verdiLog)
+used swap file number: (4)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (7)
+closeHead: (4)
+closeTail: (5)
+openCnt: (1)
+fid(6): fd(0) fileName(NULL)
+	mode(rb)	hot(4) cool(0) pos(0)
+fid(5): fd(28) fileName(/home/davidm12/411mp4/mp4/verdi/verdiLog/_swap_0001#-1367302469#1248166)
+	size(0) lastModTime(0) curModTime(1670473083)
+	mode(w+b)	hot(0) cool(4) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(rb)	hot(5) cool(6) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Wed Dec  7 22:31:43 2022
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 237568 bytes [need 80K bytes if disable swap]
+
+used block: 8 [memory(8) file(0)]
+                 [ 8K(5) 64K(3) { total 232K bytes } ]
+overhead: (9538) bytes for (8) blocks [Average: (1192) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 3(times) 46K(bytes) [10K bytes compressed data from file]
+access => 797020(times) 6239M(bytes)
+          [hit ratio: 99.9996%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/411mp4/mp4/verdi/verdiLog)
+used swap file number: (7)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (10)
+closeHead: (7)
+closeTail: (8)
+openCnt: (1)
+fid(9): fd(0) fileName(NULL)
+	mode(rb)	hot(7) cool(0) pos(0)
+fid(8): fd(28) fileName(/home/davidm12/411mp4/mp4/verdi/verdiLog/_swap_0001#-1367302469#1248166)
+	size(0) lastModTime(0) curModTime(1670473904)
+	mode(w+b)	hot(0) cool(7) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(rb)	hot(8) cool(9) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Wed Dec  7 22:31:55 2022
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 311296 bytes [need 80K bytes if disable swap]
+
+used block: 10 [memory(10) file(0)]
+                 [ 8K(6) 64K(4) { total 304K bytes } ]
+overhead: (9538) bytes for (10) blocks [Average: (953) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 4(times) 62K(bytes) [14K bytes compressed data from file]
+access => 797249(times) 6243M(bytes)
+          [hit ratio: 99.9995%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/411mp4/mp4/verdi/verdiLog)
+used swap file number: (10)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (13)
+closeHead: (10)
+closeTail: (11)
+openCnt: (1)
+fid(12): fd(0) fileName(NULL)
+	mode(rb)	hot(10) cool(0) pos(0)
+fid(11): fd(28) fileName(/home/davidm12/411mp4/mp4/verdi/verdiLog/_swap_0001#-1367302469#1248166)
+	size(0) lastModTime(0) curModTime(1670473915)
+	mode(w+b)	hot(0) cool(10) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(rb)	hot(11) cool(12) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Wed Dec  7 22:33:08 2022
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 385024 bytes [need 80K bytes if disable swap]
+
+used block: 12 [memory(12) file(0)]
+                 [ 8K(7) 64K(5) { total 376K bytes } ]
+overhead: (9538) bytes for (12) blocks [Average: (794) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 5(times) 78K(bytes) [18K bytes compressed data from file]
+access => 797478(times) 6246M(bytes)
+          [hit ratio: 99.9994%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/411mp4/mp4/verdi/verdiLog)
+used swap file number: (13)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (16)
+closeHead: (13)
+closeTail: (14)
+openCnt: (1)
+fid(15): fd(0) fileName(NULL)
+	mode(rb)	hot(13) cool(0) pos(0)
+fid(14): fd(28) fileName(/home/davidm12/411mp4/mp4/verdi/verdiLog/_swap_0001#-1367302469#1248166)
+	size(0) lastModTime(0) curModTime(1670473988)
+	mode(w+b)	hot(0) cool(13) pos(0)
+fid(13): fd(0) fileName(NULL)
+	mode(rb)	hot(14) cool(15) pos(0)
+fid(12): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(11): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Wed Dec  7 22:34:02 2022
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 458752 bytes [need 80K bytes if disable swap]
+
+used block: 14 [memory(14) file(0)]
+                 [ 8K(8) 64K(6) { total 448K bytes } ]
+overhead: (9538) bytes for (14) blocks [Average: (681) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 6(times) 94K(bytes) [22K bytes compressed data from file]
+access => 797707(times) 6250M(bytes)
+          [hit ratio: 99.9992%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/411mp4/mp4/verdi/verdiLog)
+used swap file number: (16)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (19)
+closeHead: (16)
+closeTail: (17)
+openCnt: (2)
+fid(18): fd(0) fileName(/home/davidm12/411mp4/mp4/sim/simv.daidir/kdb.elab++/work.lib++/control.sv.tdc)
+	size(7959) lastModTime(1670473808) curModTime(1670473808)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(17): fd(28) fileName(/home/davidm12/411mp4/mp4/verdi/verdiLog/_swap_0001#-1367302469#1248166)
+	size(0) lastModTime(0) curModTime(1670474042)
+	mode(w+b)	hot(0) cool(16) pos(0)
+fid(16): fd(1073741824) fileName(/home/davidm12/411mp4/mp4/sim/simv.daidir/kdb.elab++/work.lib++/top.sv.tdc)
+	size(6886) lastModTime(1670473808) curModTime(1670473808)
+	mode(rb)	hot(17) cool(0) pos(0)
+fid(15): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(14): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(13): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(12): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(11): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(15881780) pre(17365bb0) next(0)
+version(200506)
+date(Mar 24 2021 03:58:02)

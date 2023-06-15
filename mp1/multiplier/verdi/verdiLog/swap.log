@@ -1,0 +1,45 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 237568 bytes [need 232K bytes if disable swap]
+
+used block: 8 [memory(8) file(0)]
+                 [ 8K(5) 64K(3) { total 232K bytes } ]
+overhead: (9538) bytes for (8) blocks [Average: (1192) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 3(times) 26K(bytes) [6K bytes compressed data from file]
+access => 255600(times) 2008M(bytes)
+          [hit ratio: 99.9988%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/davidm12/ece411/mp1/multiplier/verdi/verdiLog)
+used swap file number: (4)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (5)
+closeHead: (1)
+closeTail: (4)
+openCnt: (4)
+fid(4): fd(1073741826) fileName(/home/davidm12/ece411/mp1/multiplier/sim/grading.daidir/kdb.elab++/work.lib++/add_shift_multiplier.sv.tdc)
+	size(5055) lastModTime(1662132265) curModTime(1662132265)
+	mode(rb)	hot(0) cool(3) pos(0)
+fid(3): fd(1073741825) fileName(/home/davidm12/ece411/mp1/multiplier/sim/grading.daidir/kdb.elab++/work.lib++/testbench.sv.tdc)
+	size(5046) lastModTime(1662132265) curModTime(1662132265)
+	mode(rb)	hot(4) cool(2) pos(0)
+fid(2): fd(26) fileName(/home/davidm12/ece411/mp1/multiplier/verdi/verdiLog/_swap_0001#380375526#2388297)
+	size(0) lastModTime(0) curModTime(1662132300)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/davidm12/ece411/mp1/multiplier/sim/grading.daidir/kdb.elab++/work.lib++/top.sv.tdc)
+	size(608) lastModTime(1662132265) curModTime(1662132265)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(171b0f40) pre(16890930) next(0)
+version(200506)
+date(Mar 24 2021 03:58:02)

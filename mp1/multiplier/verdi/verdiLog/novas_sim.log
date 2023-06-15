@@ -1,0 +1,18 @@
+Invoking simulator...
+Verdi>/home/davidm12/ece411/mp1/multiplier/sim/simv +lint=all,noSVA-UA,noNS,noSVA-AECASR +v2k -sml=verdi +fsdb+gate=off -ucli2Proc -ucli
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1-1, Linux x86_64/64bit, 04/20/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/davidm12/ece411/mp1/multiplier/verdi/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 00 ps.
+*Verdi* : Enable RPC Server(1223950)
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1-1_Full64; Runtime version R-2020.12-SP1-1_Full64;  Sep  1 11:33 2022
+xterm-256color is Not a valid terminal...
+GDR: Cleaning-up Test Run
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 00 ps
+CPU Time:      0.050 seconds;       Data structure size:   0.0Mb
+Thu Sep  1 11:35:33 2022
+debExit

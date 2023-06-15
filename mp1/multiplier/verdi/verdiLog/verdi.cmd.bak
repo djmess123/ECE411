@@ -1,0 +1,6 @@
+simSetSimulator "-vcssv" -exec "/home/davidm12/ece411/mp1/multiplier/sim/simv" \
+           -args "+lint=all,noSVA-UA,noNS,noSVA-AECASR +v2k"
+debImport "-dbdir" "/home/davidm12/ece411/mp1/multiplier/sim/simv.daidir"
+debLoadSimResult /home/davidm12/ece411/mp1/multiplier/sim/dump.fsdb
+wvCreateWindow
+debExit

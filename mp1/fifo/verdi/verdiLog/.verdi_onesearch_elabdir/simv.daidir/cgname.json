@@ -1,0 +1,38 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "fifo_types": [
+        "fifo_types",
+        "GiseG",
+        "module",
+        2
+    ],
+    "grader_types": [
+        "grader_types",
+        "DEpSa",
+        "module",
+        3
+    ],
+    "fifo_itf": [
+        "fifo_itf",
+        "dJtAh",
+        "module",
+        4
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ]
+}

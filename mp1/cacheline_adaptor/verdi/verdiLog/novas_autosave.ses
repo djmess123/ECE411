@@ -1,0 +1,94 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_R-2020.12-SP1-1
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/davidm12/ece411/mp1/cacheline_adaptor/sim/dump.fsdb
+syncTime = 0
+viewport = 0 27 1920 898 0 0 224 1918
+activeNode = "testbench.dut"
+activeScope = "testbench.dut"
+activeFile = "/home/davidm12/ece411/mp1/cacheline_adaptor/hdl/cacheline_adaptor.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "testbench.dut"
+Scope2 = "testbench"
+multipleSelection = 15 2 3 0 0 3 3 0 0 6 11 0 0 7 11 0 0 8 11 0 0 9 3 0 0 10 3 0 0 11 5 0 0 14 11 0 0 15 11 0 0 16 11 0 0 17 5 0 0 18 5 0 0 19 3 0 0 23 8 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/home/davidm12/ece411/mp1/cacheline_adaptor/sim/simv.daidir" 
+invokeDir = /home/davidm12/ece411/mp1/cacheline_adaptor/verdi
+[hb.sourceTab.1]
+scope = testbench.dut
+File = /home/davidm12/ece411/mp1/cacheline_adaptor/hdl/cacheline_adaptor.sv
+Line = 1
+[nMemoryManager]
+WaveformFile = /home/davidm12/ece411/mp1/cacheline_adaptor/sim/dump.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1920 429 168 65
+primaryWindow = TRUE
+SessionFile = /home/davidm12/ece411/mp1/cacheline_adaptor/verdi/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

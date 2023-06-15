@@ -1,0 +1,9 @@
+Passed 65536 of 65536 multiply operand covers
+Passed 1 of 1 reset in ADD cover
+Passed 1 of 1 reset in SHIFT cover
+Passed 1 of 1 start in ADD cover
+Passed 1 of 1 start in SHIFT cover
+0 False Positive BAD_PRODUCT Errors
+0 False Negative BAD_PRODUCT Errors
+0 False Positive NOT_READY Errors
+0 False Negative NOT_READY Errors

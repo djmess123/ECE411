@@ -1,0 +1,232 @@
+Magic 271485
+Revision Verdi_R-2020.12-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1230 448 179 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/davidm12/ece411/mp2/sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 88904.781713
+cursor 500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 19
+; marker line index
+markerPos 14
+
+; rename signal list
+; addRenameSig new_name org_name
+activeDirFile "" "/home/davidm12/ece411/mp2/sim/dump.fsdb"
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /mp2_tb/dut/control/rs2[0]
+userBusMem /mp2_tb/dut/control/rs2[1]
+userBusMem /mp2_tb/dut/control/rs2[2]
+userBusMem /mp2_tb/dut/control/rs2[3]
+userBusMem /mp2_tb/dut/control/rs2[4]
+saveRunSig "/mp2_tb/dut/control/rs2[0:4]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /mp2_tb/dut/datapath/j_imm[0]
+userBusMem /mp2_tb/dut/datapath/j_imm[1]
+userBusMem /mp2_tb/dut/datapath/j_imm[2]
+userBusMem /mp2_tb/dut/datapath/j_imm[3]
+userBusMem /mp2_tb/dut/datapath/j_imm[4]
+userBusMem /mp2_tb/dut/datapath/j_imm[5]
+userBusMem /mp2_tb/dut/datapath/j_imm[6]
+userBusMem /mp2_tb/dut/datapath/j_imm[7]
+userBusMem /mp2_tb/dut/datapath/j_imm[8]
+userBusMem /mp2_tb/dut/datapath/j_imm[9]
+userBusMem /mp2_tb/dut/datapath/j_imm[10]
+userBusMem /mp2_tb/dut/datapath/j_imm[11]
+userBusMem /mp2_tb/dut/datapath/j_imm[12]
+userBusMem /mp2_tb/dut/datapath/j_imm[13]
+userBusMem /mp2_tb/dut/datapath/j_imm[14]
+userBusMem /mp2_tb/dut/datapath/j_imm[15]
+userBusMem /mp2_tb/dut/datapath/j_imm[16]
+userBusMem /mp2_tb/dut/datapath/j_imm[17]
+userBusMem /mp2_tb/dut/datapath/j_imm[18]
+userBusMem /mp2_tb/dut/datapath/j_imm[19]
+userBusMem /mp2_tb/dut/datapath/j_imm[20]
+userBusMem /mp2_tb/dut/datapath/j_imm[21]
+userBusMem /mp2_tb/dut/datapath/j_imm[22]
+userBusMem /mp2_tb/dut/datapath/j_imm[23]
+userBusMem /mp2_tb/dut/datapath/j_imm[24]
+userBusMem /mp2_tb/dut/datapath/j_imm[25]
+userBusMem /mp2_tb/dut/datapath/j_imm[26]
+userBusMem /mp2_tb/dut/datapath/j_imm[27]
+userBusMem /mp2_tb/dut/datapath/j_imm[28]
+userBusMem /mp2_tb/dut/datapath/j_imm[29]
+userBusMem /mp2_tb/dut/datapath/j_imm[30]
+userBusMem /mp2_tb/dut/datapath/j_imm[31]
+saveRunSig "/mp2_tb/dut/datapath/j_imm[0:31]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /mp2_tb/dut/control/rs2[0]
+userBusMem /mp2_tb/dut/control/rs2[1]
+userBusMem /mp2_tb/dut/control/rs2[2]
+userBusMem /mp2_tb/dut/control/rs2[3]
+userBusMem /mp2_tb/dut/control/rs2[4]
+saveRunSig "/mp2_tb/dut/control/rs2[0:4]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /mp2_tb/dut/datapath/j_imm[0]
+userBusMem /mp2_tb/dut/datapath/j_imm[1]
+userBusMem /mp2_tb/dut/datapath/j_imm[2]
+userBusMem /mp2_tb/dut/datapath/j_imm[3]
+userBusMem /mp2_tb/dut/datapath/j_imm[4]
+userBusMem /mp2_tb/dut/datapath/j_imm[5]
+userBusMem /mp2_tb/dut/datapath/j_imm[6]
+userBusMem /mp2_tb/dut/datapath/j_imm[7]
+userBusMem /mp2_tb/dut/datapath/j_imm[8]
+userBusMem /mp2_tb/dut/datapath/j_imm[9]
+userBusMem /mp2_tb/dut/datapath/j_imm[10]
+userBusMem /mp2_tb/dut/datapath/j_imm[11]
+userBusMem /mp2_tb/dut/datapath/j_imm[12]
+userBusMem /mp2_tb/dut/datapath/j_imm[13]
+userBusMem /mp2_tb/dut/datapath/j_imm[14]
+userBusMem /mp2_tb/dut/datapath/j_imm[15]
+userBusMem /mp2_tb/dut/datapath/j_imm[16]
+userBusMem /mp2_tb/dut/datapath/j_imm[17]
+userBusMem /mp2_tb/dut/datapath/j_imm[18]
+userBusMem /mp2_tb/dut/datapath/j_imm[19]
+userBusMem /mp2_tb/dut/datapath/j_imm[20]
+userBusMem /mp2_tb/dut/datapath/j_imm[21]
+userBusMem /mp2_tb/dut/datapath/j_imm[22]
+userBusMem /mp2_tb/dut/datapath/j_imm[23]
+userBusMem /mp2_tb/dut/datapath/j_imm[24]
+userBusMem /mp2_tb/dut/datapath/j_imm[25]
+userBusMem /mp2_tb/dut/datapath/j_imm[26]
+userBusMem /mp2_tb/dut/datapath/j_imm[27]
+userBusMem /mp2_tb/dut/datapath/j_imm[28]
+userBusMem /mp2_tb/dut/datapath/j_imm[29]
+userBusMem /mp2_tb/dut/datapath/j_imm[30]
+userBusMem /mp2_tb/dut/datapath/j_imm[31]
+saveRunSig "/mp2_tb/dut/datapath/j_imm[0:31]"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/davidm12/ece411/mp2/sim/dump.fsdb"
+addSignal -h 15 /mp2_tb/dut/control/clk
+addSignal -h 15 -holdScope rst
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /mp2_tb/dut/control/mem_resp
+addSignal -h 15 -holdScope mem_read
+addSignal -h 15 -holdScope mem_write
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_byte_enable[3:0]
+addSignal -h 15 -holdScope rmask[3:0]
+addSignal -h 15 -holdScope wmask[3:0]
+addSignal -h 15 /mp2_tb/dut/datapath/mem_rdata[31:0]
+addSignal -h 15 -holdScope mem_wdata[31:0]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 -UNSIGNED /mp2_tb/dut/control/opcode[6:0]
+addSignal -h 15 -UNSIGNED -holdScope state[31:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 -holdScope funct7[6:0]
+addSignal -h 15 -UNSIGNED /mp2_tb/dut/datapath/aluop[2:0]
+addSignal -h 15 -UNSIGNED -holdScope cmpop[2:0]
+addSignal -h 15 /mp2_tb/dut/control/br_en
+addSignal -h 15 -holdScope rs1[4:0]
+addScopeUserBus /mp2_tb/dut/control -h 15 -UNSIGNED -HEX rs2[0:4]
+addSignal -h 15 /mp2_tb/dut/datapath/rd[4:0]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /mp2_tb/dut/datapath/load_pc
+addSignal -h 15 -holdScope load_ir
+addSignal -h 15 -holdScope load_regfile
+addSignal -h 15 -holdScope load_mar
+addSignal -h 15 -holdScope load_mdr
+addSignal -h 15 -holdScope load_data_out
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /mp2_tb/dut/datapath/pc_out[31:0]
+addSignal -h 15 -holdScope alu_out[31:0]
+addSignal -h 15 -holdScope i_imm[31:0]
+addSignal -h 15 -holdScope u_imm[31:0]
+addSignal -h 15 -holdScope b_imm[31:0]
+addSignal -h 15 -holdScope s_imm[31:0]
+addScopeUserBus /mp2_tb/dut/datapath -h 15 -UNSIGNED -HEX j_imm[0:31]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 -UNSIGNED /mp2_tb/dut/datapath/pcmux_sel[1:0]
+addSignal -h 15 -holdScope alumux1_sel
+addSignal -h 15 -UNSIGNED -holdScope alumux2_sel[2:0]
+addSignal -h 15 -UNSIGNED -holdScope regfilemux_sel[3:0]
+addSignal -h 15 -holdScope marmux_sel
+addSignal -h 15 -holdScope cmpmux_sel
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /mp2_tb/dut/datapath/regfile/data[0][31:0]
+addSignal -h 15 -holdScope data[1][31:0]
+addSignal -h 15 -holdScope data[2][31:0]
+addSignal -h 15 -holdScope data[3][31:0]
+addSignal -h 15 -holdScope data[4][31:0]
+addSignal -h 15 -holdScope data[5][31:0]
+addSignal -h 15 -holdScope data[6][31:0]
+addSignal -h 15 -holdScope data[7][31:0]
+addSignal -h 15 -holdScope data[8][31:0]
+addSignal -h 15 -holdScope data[9][31:0]
+addSignal -h 15 -holdScope data[10][31:0]
+addSignal -h 15 -holdScope data[11][31:0]
+addSignal -h 15 -holdScope data[12][31:0]
+addSignal -h 15 -holdScope data[13][31:0]
+addSignal -h 15 -holdScope data[14][31:0]
+addSignal -h 15 -holdScope data[15][31:0]
+addSignal -h 15 -holdScope data[16][31:0]
+addSignal -h 15 -holdScope data[17][31:0]
+addSignal -h 15 -holdScope data[18][31:0]
+addSignal -h 15 -holdScope data[19][31:0]
+addSignal -h 15 -holdScope data[20][31:0]
+addSignal -h 15 -holdScope data[21][31:0]
+addSignal -h 15 -holdScope data[22][31:0]
+addSignal -h 15 -holdScope data[23][31:0]
+addSignal -h 15 -holdScope data[24][31:0]
+addSignal -h 15 -holdScope data[25][31:0]
+addSignal -h 15 -holdScope data[26][31:0]
+addSignal -h 15 -holdScope data[27][31:0]
+addSignal -h 15 -holdScope data[28][31:0]
+addSignal -h 15 -holdScope data[29][31:0]
+addSignal -h 15 -holdScope data[30][31:0]
+addSignal -h 15 -holdScope data[31][31:0]
+addGroup "G2"
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,66 @@
+Design -----------------------------------------
+
+Area:   469837.387889       
+Slack:  0.25                     
+fMax:   102.564
+
+
+comp1.s ----------------------------------------
+
+Power =                       3.88->  4e+04        
+Cycles taken:                   55023
+
+Instructions processed:         44437
+Branches processed:             12370
+Branches missed:                 4520
+CPI:                                1
+Stalls:                          1544
+Inst Cache Calls:               53972
+Inst Cache Hits:                53942
+Data Cache Calls:                2980
+Data Cache Hits:                 2970
+
+Time: 337288700->323895495 ps
+
+comp2_m.s --------------------------------------
+
+Power =                      1.67->2.e+04   
+
+Cycles taken:                   94578
+ 
+Instructions processed:         10603
+Branches processed:              1948
+Branches missed:                  746
+ 
+CPI:                                8
+Stalls:                         82481
+ 
+Inst Cache Calls:               93067
+Inst Cache Hits:                93040
+Data Cache Calls:                3159
+Data Cache Hits:                 3132
+
+Time: 571254000->548396955 ps
+
+
+comp3.s ---------------------------------------
+
+Power =                          2.7->2.4 e+04             
+
+Cycles taken:                   83705
+ 
+Instructions processed:         47243
+Branches processed:              4391
+Branches missed:                 2407
+ 
+CPI:                                1
+Stalls:                         31646
+ 
+Inst Cache Calls:               81712
+Inst Cache Hits:                81677
+Data Cache Calls:               13437
+Data Cache Hits:                12921
+
+Time: 492042885 ps
+
+

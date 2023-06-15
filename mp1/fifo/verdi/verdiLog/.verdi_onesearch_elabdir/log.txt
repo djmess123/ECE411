@@ -1,0 +1,7 @@
+Passed 256 of 256 enqueue covers
+Passed 256 of 256 dequeue covers
+Passed 255 of 255 both covers
+0 False Positive Reset Errors
+0 False Negative Reset Errors
+0 False Positive Data Errors
+0 False Negative Data Errors

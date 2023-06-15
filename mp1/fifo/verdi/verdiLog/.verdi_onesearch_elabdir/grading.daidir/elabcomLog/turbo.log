@@ -1,0 +1,5 @@
+Command Line: /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/bin/elabcom -logdir /home/davidm12/ece411/mp1/fifo/sim/grading.daidir/elabcomLog -simvdaidir /home/davidm12/ece411/mp1/fifo/sim/grading.daidir -lib /home/davidm12/ece411/mp1/fifo/sim/grading.daidir/work -saveLevel -elab /home/davidm12/ece411/mp1/fifo/sim/grading.daidir/kdb -simflow -simdir /home/davidm12/ece411/mp1/fifo/sim/grading.daidir/kdb_libs -topfile /home/davidm12/ece411/mp1/fifo/sim/grading.daidir/.elabcomTopFile -pkgfile /home/davidm12/ece411/mp1/fifo/sim/grading.daidir/.elabcomPkgFile -ssv -ssy -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389
+uname(Linux fastx3-22.ews.illinois.edu 4.18.0-372.19.1.el8_6.x86_64 #1 SMP Tue Aug 2 13:42:59 EDT 2022 x86_64)
+[INFO] error/warning message 'C00388' has been suppressed.
+[INFO] error/warning message 'C00389' has been suppressed.
+au time 0.240138 0.019101 0.017317 delta 94752768 94752768 total 212197376 212197376

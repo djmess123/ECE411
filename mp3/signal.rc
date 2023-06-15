@@ -1,0 +1,864 @@
+Magic 271485
+Revision Verdi_R-2020.12-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1308 479 182 141
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/davidm12/ece411/mp3/sim/dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 275225.000000
+cursor 245500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 69
+; marker line index
+markerPos 85
+
+; rename signal list
+; addRenameSig new_name org_name
+activeDirFile "" "/home/davidm12/ece411/mp3/sim/dump.fsdb"
+
+addRenameSig "/==========Divider==========" "/BLANK" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[7:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[7:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[7:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[7:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[7:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[7:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[7][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[7][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[6][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[6][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[5][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[5][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[4][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[4][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[3][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[3][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[2][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[2][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[1][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[1][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[0][255:0]" "/mp3_tb/dut/cache/datapath/way0/data_arr/data[0][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[7:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[7:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[7:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[7:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[7][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[7][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[6][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[6][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[5][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[5][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[4][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[4][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[3][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[3][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[2][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[2][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[1][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[1][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[0][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[0][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[7:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[7:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========way 0==========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Way 1=========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[7][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[7][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[6][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[6][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[5][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[5][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[4][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[4][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[3][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[3][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[2][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[2][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[1][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[1][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[0][255:0]" "/mp3_tb/dut/cache/datapath/way1/data_arr/data[0][255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[7][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[7][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[6][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[6][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[5][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[5][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[4][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[4][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[3][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[3][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[2][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[2][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[1][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[1][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[0][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[0][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========C A==========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========datapath=========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[31:0]" "/mp3_tb/dut/cache/control/state[31:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/data_out_way0[255:0]" "/mp3_tb/dut/cache/datapath/way0/data_out[255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/data_out_way1[255:0]" "/mp3_tb/dut/cache/datapath/way1/data_out[255:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/==========Registers==========" "/==========Divider==========" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[31]" "/mp3_tb/dut/cache/control/state[31]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[30]" "/mp3_tb/dut/cache/control/state[30]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[29]" "/mp3_tb/dut/cache/control/state[29]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[28]" "/mp3_tb/dut/cache/control/state[28]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[27]" "/mp3_tb/dut/cache/control/state[27]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[26]" "/mp3_tb/dut/cache/control/state[26]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[25]" "/mp3_tb/dut/cache/control/state[25]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[24]" "/mp3_tb/dut/cache/control/state[24]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[23]" "/mp3_tb/dut/cache/control/state[23]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[22]" "/mp3_tb/dut/cache/control/state[22]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[21]" "/mp3_tb/dut/cache/control/state[21]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[20]" "/mp3_tb/dut/cache/control/state[20]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[19]" "/mp3_tb/dut/cache/control/state[19]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[18]" "/mp3_tb/dut/cache/control/state[18]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[17]" "/mp3_tb/dut/cache/control/state[17]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[16]" "/mp3_tb/dut/cache/control/state[16]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[15]" "/mp3_tb/dut/cache/control/state[15]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[14]" "/mp3_tb/dut/cache/control/state[14]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[13]" "/mp3_tb/dut/cache/control/state[13]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[12]" "/mp3_tb/dut/cache/control/state[12]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[11]" "/mp3_tb/dut/cache/control/state[11]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[10]" "/mp3_tb/dut/cache/control/state[10]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[9]" "/mp3_tb/dut/cache/control/state[9]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[8]" "/mp3_tb/dut/cache/control/state[8]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[7]" "/mp3_tb/dut/cache/control/state[7]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[6]" "/mp3_tb/dut/cache/control/state[6]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[5]" "/mp3_tb/dut/cache/control/state[5]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[4]" "/mp3_tb/dut/cache/control/state[4]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[3]" "/mp3_tb/dut/cache/control/state[3]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[2]" "/mp3_tb/dut/cache/control/state[2]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[1]" "/mp3_tb/dut/cache/control/state[1]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/control/cache_state[0]" "/mp3_tb/dut/cache/control/state[0]" keep
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[7][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[7][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[6][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[6][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[5][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[5][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[4][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[4][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[3][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[3][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[2][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[2][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[1][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[1][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[0][0:0]" "/mp3_tb/dut/cache/datapath/way0/dirty_arr/data[0][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[7][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[7][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[6][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[6][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[5][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[5][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[4][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[4][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[3][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[3][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[2][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[2][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[1][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[1][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[0][23:0]" "/mp3_tb/dut/cache/datapath/way0/tag_arr/data[0][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[7][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[7][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[6][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[6][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[5][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[5][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[4][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[4][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[3][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[3][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[2][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[2][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[1][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[1][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[0][0:0]" "/mp3_tb/dut/cache/datapath/way0/valid_arr/data[0][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[7][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[7][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[6][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[6][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[5][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[5][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[4][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[4][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[3][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[3][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[2][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[2][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[1][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[1][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[0][0:0]" "/mp3_tb/dut/cache/datapath/way1/dirty_arr/data[0][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[7][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[7][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[6][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[6][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[5][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[5][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[4][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[4][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[3][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[3][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[2][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[2][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[1][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[1][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[0][23:0]" "/mp3_tb/dut/cache/datapath/way1/tag_arr/data[0][23:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[7][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[7][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[6][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[6][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[5][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[5][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[4][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[4][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[3][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[3][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[2][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[2][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[1][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[1][0:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[0][0:0]" "/mp3_tb/dut/cache/datapath/way1/valid_arr/data[0][0:0]"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/davidm12/ece411/mp3/sim/dump.fsdb"
+addSignal -h 15 /mp3_tb/dut/cache/clk
+addSignal -h 15 -holdScope rst
+addSignal -h 15 /mp3_tb/dut/cpu/datapath/pc_out[31:0]
+addSignal -h 15 -UNSIGNED /mp3_tb/dut/cpu/control/state[31:0]
+addSignal -h 15 /mp3_tb/dut/cpu/datapath/mem_address[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_rdata[31:0]
+addSignal -h 15 /mp3_tb/dut/mem_wdata[31:0]
+addSignal -h 15 /mp3_tb/dut/cache/bus_adapter/mem_rdata256[255:0]
+addSignal -h 15 /mp3_tb/dut/cpu/control/mem_resp
+addSignal -h 15 -UNSIGNED -holdScope state[31:0]
+addSignal -h 15 -holdScope mem_read
+addSignal -h 15 /mp3_tb/dut/mem_write
+addSignal -h 15 /mp3_tb/dut/cpu/datapath/IR/data[31:0]
+addSignal -h 15 -UNSIGNED /mp3_tb/dut/cpu/opcode[6:0]
+addSignal -h 15 -holdScope funct3[2:0]
+addSignal -h 15 -holdScope funct7[6:0]
+addSignal -h 15 -holdScope rs1[4:0]
+addSignal -h 15 -holdScope rs2[4:0]
+addSignal -h 15 /mp3_tb/dut/cpu/datapath/rd[4:0]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 -UNSIGNED /mp3_tb/dut/cache/control/cache_state[31:0]
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/cache/pmem_address[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pmem_rdata[255:0]
+addSignal -h 15 -holdScope mem_rdata256[255:0]
+addSignal -h 15 -holdScope pmem_read
+addSignal -h 15 -holdScope pmem_resp
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /mp3_tb/dut/cache/control/waymux_sel
+addSignal -h 15 /mp3_tb/dut/cache/datapath/load_way_sel
+addSignal -h 15 /mp3_tb/dut/cache/load_valid
+addSignal -h 15 -holdScope valid_in
+addSignal -h 15 -holdScope load_dirty
+addSignal -h 15 -holdScope dirty_in
+addSignal -h 15 -holdScope load_lru
+addSignal -h 15 -holdScope lru_in
+addSignal -h 15 -holdScope load_data[31:0]
+addSignal -h 15 -holdScope load_tag
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 /mp3_tb/dut/cache/datapath/cache_dirty
+addSignal -h 15 -holdScope cache_hit
+addSignal -h 15 -holdScope cache_lru
+addSignal -h 15 -holdScope cache_read
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/cache/datapath/way0/data_arr/dataout[255:0]
+addSignal -h 15 -holdScope read
+addSignal -h 15 /mp3_tb/dut/cache/datapath/pmem_rdata[255:0]
+addSignal -h 15 /mp3_tb/dut/pmem_write
+addSignal -h 15 /==========C A==========
+addSignal -h 15 /mp3_tb/dut/pmem_address[31:0]
+addSignal -h 15 /mp3_tb/dut/ca/address_i[31:0]
+addSignal -h 15 -holdScope address_o[31:0]
+addSignal -h 15 -holdScope read_i
+addSignal -h 15 -holdScope write_i
+addSignal -h 15 -holdScope reset_n
+addSignal -h 15 -holdScope burst_o[63:0]
+addSignal -h 15 -holdScope buffer[255:0]
+addSignal -h 15 -holdScope burst_i[63:0]
+addSignal -h 15 -holdScope resp_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope line_o[255:0]
+addSignal -h 15 -holdScope line_i[255:0]
+addSignal -h 15 -holdScope resp_o
+addSignal -h 15 -holdScope write_o
+addSignal -h 15 -holdScope read_o
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/pmem_wdata[63:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/pmem_rdata[255:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way0/read
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way0/data_arr/write_en[31:0]
+addSignal -h 15 -holdScope rindex[2:0]
+addSignal -h 15 -holdScope windex[2:0]
+addSignal -h 15 /==========Divider==========
+addSignal -h 15 -UNSIGNED /mp3_tb/dut/cpu/control/state[31:0]
+addSignal -h 15 -UNSIGNED /mp3_tb/dut/cache/control/state[31:0]
+addSignal -h 15 /mp3_tb/dut/cpu/datapath/mem_address[31:0]
+addSignal -h 15 /mp3_tb/dut/cache/mem_rdata256[255:0]
+addSignal -h 15 /mp3_tb/dut/cache/control/cache_read
+addSignal -h 15 -holdScope mem_resp
+addSignal -h 15 -holdScope hit_way0
+addSignal -h 15 -holdScope waymux_sel
+addSignal -h 15 /mp3_tb/dut/cache/datapath/mem_write
+addSignal -h 15 -UNSIGNED -HEX -holdScope cache_data_in[255:0]
+addSignal -h 15 -holdScope pmem_rdata[255:0]
+addSignal -h 15 -holdScope mem_wdata256[255:0]
+addSignal -h 15 -holdScope cache_lru
+addSignal -h 15 -holdScope cache_dirty
+addSignal -h 15 -holdScope cache_dirty_way1
+addSignal -h 15 -holdScope cache_dirty_way0
+addSignal -h 15 /==========way 0==========
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way0/data_arr/way0_data[7][255:0]
+addSignal -h 15 -holdScope way0_data[6][255:0]
+addSignal -h 15 -holdScope way0_data[5][255:0]
+addSignal -h 15 -holdScope way0_data[4][255:0]
+addSignal -h 15 -holdScope way0_data[3][255:0]
+addSignal -h 15 -holdScope way0_data[2][255:0]
+addSignal -h 15 -holdScope way0_data[1][255:0]
+addSignal -h 15 -holdScope way0_data[0][255:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way0/dirty_arr/dirtydata[7:0]
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/cache/datapath/way0/tag_arr/tag data[7:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way0/valid_arr/valid data[7:0]
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/cache/datapath/way0/data_out_way0[255:0]
+addSignal -h 15 /==========Way 1=========
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way1/data_arr/way1_data[7][255:0]
+addSignal -h 15 -holdScope way1_data[6][255:0]
+addSignal -h 15 -holdScope way1_data[5][255:0]
+addSignal -h 15 -holdScope way1_data[4][255:0]
+addSignal -h 15 -holdScope way1_data[3][255:0]
+addSignal -h 15 -holdScope way1_data[2][255:0]
+addSignal -h 15 -holdScope way1_data[1][255:0]
+addSignal -h 15 -holdScope way1_data[0][255:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way1/dirty_arr/dirty data[7:0]
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/cache/datapath/way1/tag_arr/tagdata[7:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/way1/valid_arr/valid_data[7:0]
+addSignal -h 15 -UNSIGNED -HEX /mp3_tb/dut/cache/datapath/way1/data_out_way1[255:0]
+addSignal -h 15 /==========datapath=========
+addSignal -h 15 /mp3_tb/dut/cache/datapath/LRU/data[7:0]
+addSignal -h 15 /mp3_tb/dut/cache/datapath/hit_way0
+addSignal -h 15 -holdScope hit_way1
+addSignal -h 15 -holdScope cache_lru
+addSignal -h 15 -holdScope cache_hit
+addSignal -h 15 -holdScope cache_dirty
+addSignal -h 15 /==========Registers==========
+addSignal -h 15 /mp3_tb/dut/cpu/datapath/regfile/data[0][31:0]
+addSignal -h 15 -holdScope data[1][31:0]
+addSignal -h 15 -holdScope data[2][31:0]
+addSignal -h 15 -holdScope data[3][31:0]
+addSignal -h 15 -holdScope data[4][31:0]
+addSignal -h 15 -holdScope data[5][31:0]
+addSignal -h 15 -holdScope data[6][31:0]
+addSignal -h 15 -holdScope data[7][31:0]
+addSignal -h 15 -holdScope data[8][31:0]
+addSignal -h 15 -holdScope data[9][31:0]
+addSignal -h 15 -holdScope data[10][31:0]
+addSignal -h 15 -holdScope data[11][31:0]
+addSignal -h 15 -holdScope data[12][31:0]
+addSignal -h 15 -holdScope data[13][31:0]
+addSignal -h 15 -holdScope data[14][31:0]
+addSignal -h 15 -holdScope data[15][31:0]
+addSignal -h 15 -holdScope data[16][31:0]
+addSignal -h 15 -holdScope data[17][31:0]
+addSignal -h 15 -holdScope data[18][31:0]
+addSignal -h 15 -holdScope data[19][31:0]
+addSignal -h 15 -holdScope data[20][31:0]
+addSignal -h 15 -holdScope data[21][31:0]
+addSignal -h 15 -holdScope data[22][31:0]
+addSignal -h 15 -holdScope data[23][31:0]
+addSignal -h 15 -holdScope data[24][31:0]
+addSignal -h 15 -holdScope data[25][31:0]
+addSignal -h 15 -holdScope data[26][31:0]
+addSignal -h 15 -holdScope data[27][31:0]
+addSignal -h 15 -holdScope data[28][31:0]
+addSignal -h 15 -holdScope data[29][31:0]
+addSignal -h 15 -holdScope data[30][31:0]
+addSignal -h 15 -holdScope data[31][31:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
+
+FILTER_SIGNAL_BEGIN
+
+"*"
+
+FILTER_STRING_LIST_BEGIN
+FILTER_STRING_LIST_END
+
+FILTER_TYPE_LIST_BEGIN
+"All"
+"Input"
+"Output"
+"Inout"
+"Net"
+"Register"
+"Buffer"
+"Linkage"
+"ClassTransaction"
+"Property"
+"Others"
+FILTER_TYPE_LIST_END
+
+FILTER_SIGNAL_END

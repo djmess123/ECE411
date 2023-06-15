@@ -1,0 +1,10 @@
+/home/davidm12/ece411/mp1/fifo/grader/grader.sv
+/home/davidm12/ece411/mp1/fifo/grader/grader_itf.sv
+/home/davidm12/ece411/mp1/fifo/grader/transaction_monitor.sv
+/home/davidm12/ece411/mp1/fifo/grader/transaction_scoreboard.sv
+/home/davidm12/ece411/mp1/fifo/hdl/fifo.sv
+/home/davidm12/ece411/mp1/fifo/hdl/fifo_itf.sv
+/home/davidm12/ece411/mp1/fifo/hvl/testbench.sv
+/home/davidm12/ece411/mp1/fifo/hvl/top.sv
+/home/davidm12/ece411/mp1/fifo/pkg/design_types.sv
+/home/davidm12/ece411/mp1/fifo/pkg/grader_types.sv

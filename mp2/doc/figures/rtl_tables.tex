@@ -1,0 +1,94 @@
+\documentclass[letterpaper]{article}
+
+\newcommand{\rtltableheader}{{\normalfont\bfseries State} & {\normalfont\bfseries Data} & {\normalfont\bfseries Control}}
+\newenvironment{rtltable}{
+    \ttfamily\tabularx{\textwidth}{l >{\hsize=0.7\hsize}X X}
+    \toprule\rtltableheader \\ \midrule
+}{
+    \endtabularx
+}
+
+\begin{document}
+
+\subsection{FETCH process}
+\label{app:rtl-fetch}
+\begin{rtltable}
+fetch1  & MAR\tgets PC            & load\_mar\tgets 1; \\ \midrule
+fetch2  & while (mem\_resp == 0) MDR\tgets M[MAR];  & load\_mdr\tgets 1; mem\_read\tgets 1; \\ \midrule
+fetch3  & IR\tgets MDR;                             & load\_ir\tgets 1; \\ \bottomrule
+\end{rtltable}
+
+\subsection{DECODE process}
+\begin{rtltable}
+decode  & {\normalfont // NONE} & {\normalfont // NONE (Note that although there is no code here, realistically speaking an instruction needs time to be decoded so that the processor knows which branch to take and there is code in the next\_state logic)} \\ \bottomrule
+\end{rtltable}
+
+\subsection{SLTI instruction}
+\begin{rtltable}
+FETCH   &                   & \\ \midrule
+DECODE  &                   & \\ \midrule
+s\_imm  & rd\tgets rs1\_out $\bigoplus$ i\_imm; PC\tgets PC + 4;   & load\_regfile\tgets 1; load\_pc\tgets 1; cmpop\tgets blt; regfilemux\_sel\tgets 1; cmpmux\_sel\tgets 1; rs1\_addr\tgets rs1 \\ \bottomrule
+\end{rtltable}
+
+\subsection{SLTIU instruction}
+\begin{rtltable}
+FETCH   &                   & \\ \midrule
+DECODE  &                   & \\ \midrule
+s\_imm  & rd\tgets rs1\_out $\bigoplus$ i\_imm; PC\tgets PC + 4;   & load\_regfile\tgets 1; load\_pc\tgets 1; cmpop\tgets bltu; regfilemux\_sel\tgets 1; cmpmux\_sel\tgets 1; rs1\_addr\tgets rs1 \\ \bottomrule
+\end{rtltable}
+
+\subsection{SRAI instruction}
+\begin{rtltable}
+FETCH   &                   & \\ \midrule
+DECODE  &                   & \\ \midrule
+s\_imm  & rd\tgets rs1\_out $\bigoplus$ i\_imm; PC\tgets PC + 4;   & load\_regfile\tgets 1; load\_pc\tgets 1; aluop\tgets alu\_sra; rs1\_addr\tgets rs1 \\ \bottomrule
+\end{rtltable}
+
+\subsection{other immediate instructions}
+\begin{rtltable}
+FETCH   &                   & \\ \midrule
+DECODE  &                   & \\ \midrule
+s\_imm  & rd\tgets rs1\_out $\bigoplus$ i\_imm; PC\tgets PC + 4;   & load\_regfile\tgets 1; load\_pc\tgets 1; aluop\tgets funct3; rs1\_addr\tgets rs1 \\ \bottomrule
+\end{rtltable}
+
+\subsection{BR instruction}
+\label{app:rtl-br}
+\begin{rtltable}
+FETCH       &                                   & \\ \midrule
+DECODE      &                                   & \\ \midrule
+br          & PC\tgets PC + (br\_en ? b\_imm : 4); & pcmux\_sel\tgets br\_en; load\_pc\tgets 1; alumux1\_sel\tgets 1; alumux2\_sel\tgets 2; aluop\tgets alu\_add; rs1\_addr\tgets rs1; rs2\_addr\tgets rs2 \\ \bottomrule
+\end{rtltable}
+
+\subsection{LW instruction}
+\begin{rtltable}
+FETCH       &                                   & \\ \midrule
+DECODE      &                                   & \\ \midrule
+calc\_addr  & MAR\tgets rs1\_out + i\_imm; & aluop\tgets alu\_add; load\_mar\tgets 1; marmux\_sel\tgets 1; \\ \midrule
+ldr1        & while (mem\_resp == 0) MDR\tgets M[MAR];                 & load\_mdr\tgets 1; mem\_read\tgets 1; \\ \midrule
+ldr2        & rd\tgets MDR; PC\tgets PC + 4;                     & regfilemux\_sel\tgets 3; load\_regfile\tgets 1; load\_pc\tgets 1; rs1\_addr\tgets rs1 \\ \bottomrule
+\end{rtltable}
+
+\subsection{SW instruction}
+\begin{rtltable}
+FETCH       &                                   & \\ \midrule
+DECODE      &                                   & \\ \midrule
+calc\_addr  & MAR\tgets rs1\_out + s\_imm; data\_out\tgets rs2\_out & alumux2\_sel\tgets 3; aluop\tgets alu\_add; load\_mar\tgets 1; load\_data\_out\tgets 1; marmux\_sel\tgets 1; \\ \midrule
+str1        & while (mem\_resp == 0) M[MAR]\tgets data\_out; & mem\_write\tgets 1; \\ \midrule
+str2        & PC\tgets PC + 4;                 & load\_pc\tgets 1; rs1\_addr\tgets rs1; rs2\_addr\tgets rs2 \\ \bottomrule
+\end{rtltable}
+
+\subsection{AUIPC}
+\begin{rtltable}
+FETCH   &                   & \\ \midrule
+DECODE  &                   & \\ \midrule
+s\_auipc  & rd\tgets pc + u\_imm; PC\tgets PC + 4;   & alumux1\_sel\tgets 1; alumux2\_sel\tgets 1; load\_regfile\tgets 1; load\_pc\tgets 1; aluop\tgets alu\_add; \\ \bottomrule
+\end{rtltable}
+
+\subsection{LUI}
+\begin{rtltable}
+FETCH   &                   & \\ \midrule
+DECODE  &                   & \\ \midrule
+s\_lui  & rd\tgets u\_imm; PC\tgets PC + 4;   & load\_regfile\tgets 1; load\_pc\tgets 1; regfilemux\_sel\tgets 2; rs1\_addr\tgets rs1 \\ \bottomrule
+\end{rtltable}
+
+\end{document}

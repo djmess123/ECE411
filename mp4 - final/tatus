@@ -1,0 +1,184 @@
+[1mdiff --git a/hdl/cache/array.sv b/hdl/cache/array.sv[m
+[1mindex 486a177..b20827e 100644[m
+[1m--- a/hdl/cache/array.sv[m
+[1m+++ b/hdl/cache/array.sv[m
+[36m@@ -38,12 +38,16 @@[m [mbegin[m
+             data[i] <= '0;[m
+     end[m
+     else begin[m
+[31m-        if (read)[m
+[31m-            _dataout <= (load  & (rindex == windex)) ? datain : data[rindex];[m
+ [m
+         if(load)[m
+             data[windex] <= datain;[m
+     end[m
+ end[m
+ [m
+[32m+[m[32malways_comb[m
+[32m+[m[32mbegin[m
+[32m+[m[32m    _dataout <= (load  & (rindex == windex)) ? datain : data[rindex];[m
+[32m+[m[32mend[m
+[32m+[m
+[32m+[m
+ endmodule : array[m
+[1mdiff --git a/hdl/mp4.sv b/hdl/mp4.sv[m
+[1mindex be72196..5788ce2 100644[m
+[1m--- a/hdl/mp4.sv[m
+[1m+++ b/hdl/mp4.sv[m
+[36m@@ -110,87 +110,87 @@[m [mcacheline_adaptor GCA[m
+     .resp_i(pmem_resp)[m
+ );[m
+ [m
+[31m-gcache gcacheI ([m
+[31m-	.clk(clk), [m
+[31m-	.mem_address(i_addr),[m
+[31m-	.mem_rdata_cpu(i_rdata),[m
+[31m-	.mem_wdata_cpu(32'd0),[m
+[31m-	.mem_read(i_read),[m
+[31m-	.mem_write(1'b0),[m
+[31m-	.mem_byte_enable_cpu(4'b0000),[m
+[31m-	.mem_resp(i_resp),[m
+[31m-[m
+[31m-	.pmem_address(i_pmem_address),[m
+[31m-	.pmem_rdata(i_pmem_rdata),[m
+[31m-	.pmem_wdata(),[m
+[31m-	.pmem_read(i_pmem_read),[m
+[31m-	.pmem_write(),[m
+[31m-	.pmem_resp(i_pmem_resp)[m
+[31m-);[m
+[31m-[m
+[31m-gcache gcacheD ([m
+[31m-    .clk(clk),[m
+[31m-[m
+[31m-    .mem_address(d_addr),[m
+[31m-    .mem_rdata_cpu(d_rdata),[m
+[31m-    .mem_wdata_cpu(d_wdata),[m
+[31m-    .mem_read(d_read),[m
+[31m-    .mem_write(d_write),[m
+[31m-    .mem_byte_enable_cpu(d_mbe),[m
+[31m-    .mem_resp(d_resp),[m
+[31m-[m
+[31m-    .pmem_address(d_pmem_address),[m
+[31m-    .pmem_rdata(d_pmem_rdata),[m
+[31m-    .pmem_wdata(d_pmem_wdata),[m
+[31m-    .pmem_read(d_pmem_read),[m
+[31m-    .pmem_write(d_pmem_write),[m
+[31m-    .pmem_resp(d_pmem_resp)[m
+[31m-);[m
+[31m-[m
+[31m-// cache cacheI ([m
+[31m-//     .clk(clk),[m
+[31m-//     .rst(rst),[m
+[31m-[m
+[31m-//     /* CPU memory signals */[m
+[31m-//     .mem_address(i_addr),[m
+[31m-//     .mem_rdata(i_rdata),         [m
+[31m-//     .mem_wdata(32'd0),[m
+[31m-//     .mem_read(i_read),[m
+[31m-//     .mem_write(1'b0),[m
+[31m-//     .mem_byte_enable(4'b0000),[m
+[31m-//     .mem_resp(i_resp),          [m
+[31m-[m
+[31m-//     /* Physical memory signals */[m
+[31m-//     .pmem_address(i_pmem_address),      [m
+[31m-//     .pmem_rdata(i_pmem_rdata),[m
+[31m-//     .pmem_wdata(),       [m
+[31m-//     .pmem_read(i_pmem_read),     [m
+[31m-//     .pmem_write(),        [m
+[31m-//     .pmem_resp(i_pmem_resp)[m
+[32m+[m[32m// gcache gcacheI ([m[41m[m
+[32m+[m[32m// 	.clk(clk),[m[41m [m
+[32m+[m[32m// 	.mem_address(i_addr),[m[41m[m
+[32m+[m[32m// 	.mem_rdata_cpu(i_rdata),[m[41m[m
+[32m+[m[32m// 	.mem_wdata_cpu(32'd0),[m[41m[m
+[32m+[m[32m// 	.mem_read(i_read),[m[41m[m
+[32m+[m[32m// 	.mem_write(1'b0),[m[41m[m
+[32m+[m[32m// 	.mem_byte_enable_cpu(4'b0000),[m[41m[m
+[32m+[m[32m// 	.mem_resp(i_resp),[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m// 	.pmem_address(i_pmem_address),[m[41m[m
+[32m+[m[32m// 	.pmem_rdata(i_pmem_rdata),[m[41m[m
+[32m+[m[32m// 	.pmem_wdata(),[m[41m[m
+[32m+[m[32m// 	.pmem_read(i_pmem_read),[m[41m[m
+[32m+[m[32m// 	.pmem_write(),[m[41m[m
+[32m+[m[32m// 	.pmem_resp(i_pmem_resp)[m[41m[m
+ // );[m
+ [m
+[31m-// cache cacheD ([m
+[32m+[m[32m// gcache gcacheD ([m[41m[m
+ //     .clk(clk),[m
+[31m-//     .rst(rst),[m
+ [m
+[31m-//     /* CPU memory signals */[m
+ //     .mem_address(d_addr),[m
+[31m-//     .mem_rdata(d_rdata),         [m
+[31m-//     .mem_wdata(d_wdata),[m
+[32m+[m[32m//     .mem_rdata_cpu(d_rdata),[m[41m[m
+[32m+[m[32m//     .mem_wdata_cpu(d_wdata),[m[41m[m
+ //     .mem_read(d_read),[m
+ //     .mem_write(d_write),[m
+[31m-//     .mem_byte_enable(d_mbe),[m
+[31m-//     .mem_resp(d_resp),          [m
+[32m+[m[32m//     .mem_byte_enable_cpu(d_mbe),[m[41m[m
+[32m+[m[32m//     .mem_resp(d_resp),[m[41m[m
+ [m
+[31m-//     /* Physical memory signals */[m
+[31m-//     .pmem_address(d_pmem_address),      [m
+[32m+[m[32m//     .pmem_address(d_pmem_address),[m[41m[m
+ //     .pmem_rdata(d_pmem_rdata),[m
+[31m-//     .pmem_wdata(d_pmem_wdata),       [m
+[31m-//     .pmem_read(d_pmem_read),     [m
+[31m-//     .pmem_write(d_pmem_write),        [m
+[32m+[m[32m//     .pmem_wdata(d_pmem_wdata),[m[41m[m
+[32m+[m[32m//     .pmem_read(d_pmem_read),[m[41m[m
+[32m+[m[32m//     .pmem_write(d_pmem_write),[m[41m[m
+ //     .pmem_resp(d_pmem_resp)[m
+ // );[m
+ [m
+[32m+[m[32mcache cacheI ([m[41m[m
+[32m+[m[32m    .clk(clk),[m[41m[m
+[32m+[m[32m    .rst(rst),[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    /* CPU memory signals */[m[41m[m
+[32m+[m[32m    .mem_address(i_addr),[m[41m[m
+[32m+[m[32m    .mem_rdata(i_rdata),[m[41m         [m
+[32m+[m[32m    .mem_wdata(32'd0),[m[41m[m
+[32m+[m[32m    .mem_read(i_read),[m[41m[m
+[32m+[m[32m    .mem_write(1'b0),[m[41m[m
+[32m+[m[32m    .mem_byte_enable(4'b0000),[m[41m[m
+[32m+[m[32m    .mem_resp(i_resp),[m[41m          [m
+[32m+[m[41m[m
+[32m+[m[32m    /* Physical memory signals */[m[41m[m
+[32m+[m[32m    .pmem_address(i_pmem_address),[m[41m      [m
+[32m+[m[32m    .pmem_rdata(i_pmem_rdata),[m[41m[m
+[32m+[m[32m    .pmem_wdata(),[m[41m       [m
+[32m+[m[32m    .pmem_read(i_pmem_read),[m[41m     [m
+[32m+[m[32m    .pmem_write(),[m[41m        [m
+[32m+[m[32m    .pmem_resp(i_pmem_resp)[m[41m[m
+[32m+[m[32m);[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mcache cacheD ([m[41m[m
+[32m+[m[32m    .clk(clk),[m[41m[m
+[32m+[m[32m    .rst(rst),[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    /* CPU memory signals */[m[41m[m
+[32m+[m[32m    .mem_address(d_addr),[m[41m[m
+[32m+[m[32m    .mem_rdata(d_rdata),[m[41m         [m
+[32m+[m[32m    .mem_wdata(d_wdata),[m[41m[m
+[32m+[m[32m    .mem_read(d_read),[m[41m[m
+[32m+[m[32m    .mem_write(d_write),[m[41m[m
+[32m+[m[32m    .mem_byte_enable(d_mbe),[m[41m[m
+[32m+[m[32m    .mem_resp(d_resp),[m[41m          [m
+[32m+[m[41m[m
+[32m+[m[32m    /* Physical memory signals */[m[41m[m
+[32m+[m[32m    .pmem_address(d_pmem_address),[m[41m      [m
+[32m+[m[32m    .pmem_rdata(d_pmem_rdata),[m[41m[m
+[32m+[m[32m    .pmem_wdata(d_pmem_wdata),[m[41m       [m
+[32m+[m[32m    .pmem_read(d_pmem_read),[m[41m     [m
+[32m+[m[32m    .pmem_write(d_pmem_write),[m[41m        [m
+[32m+[m[32m    .pmem_resp(d_pmem_resp)[m[41m[m
+[32m+[m[32m);[m[41m[m
+[32m+[m[41m[m
+ arbiter AR([m
+     .clk(clk),[m
+     .rst(rst),[m

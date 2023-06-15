@@ -1,0 +1,403 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_begin_no_value_var_info('simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: vhdi_dt_get_type('simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_get_fsdb_option('simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: simv
+ option[1]: -lca
+ option[2]: +lint=all,noNS
+ option[3]: /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/bin/vcs1
+ option[4]: -Mcc=gcc
+ option[5]: -Mcplusplus=g++
+ option[6]: -Masflags=
+ option[7]: -Mcfl= -pipe -fPIC -O -I/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/include 
+ option[8]: -Mxcflags= -pipe -fPIC -I/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/include
+ option[9]: -Mldflags= -rdynamic 
+ option[10]: -Mout=simv
+ option[11]: -Mamsrun=
+ option[12]: -Mvcsaceobjs=
+ option[13]: -Mobjects= /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/libvirsim.so /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/liberrorinf.so /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/libsnpsmalloc.so /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/libvfs.so 
+ option[14]: -Mexternalobj=
+ option[15]: -Msaverestoreobj=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/vcs_save_restore_new.o
+ option[16]: -Mcrt0=
+ option[17]: -Mcrtn=
+ option[18]: -Mcsrc=
+ option[19]: -Msyslibs=/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[20]: -Xvcs_run_simv=1
+ option[21]: -full64
+ option[22]: -lca
+ option[23]: +lint=all,noNS
+ option[24]: -timescale=1ns/10ps
+ option[25]: -debug_acc+all
+ option[26]: +vpi
+ option[27]: +vcsd1
+ option[28]: +itf+/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib/vcsdp_lite.tab
+ option[29]: -kdb
+ option[30]: -Xufe=2steps
+ option[31]: -fsdb
+ option[32]: -P
+ option[33]: /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/verdi.tab
+ option[34]: -msg_config=../warn.config
+ option[35]: -picarchive
+ option[36]: -debug_acc+fsdb
+ option[37]: -sverilog
+ option[38]: -gen_obj
+ option[39]: /home/davidm12/ece411/mp2/pkg/rv32i_mux_types.sv
+ option[40]: /home/davidm12/ece411/mp2/pkg/rv32i_types.sv
+ option[41]: /home/davidm12/ece411/mp2/hdl/register.sv
+ option[42]: /home/davidm12/ece411/mp2/hdl/mp2.sv
+ option[43]: /home/davidm12/ece411/mp2/hdl/pc_reg.sv
+ option[44]: /home/davidm12/ece411/mp2/hdl/cmp.sv
+ option[45]: /home/davidm12/ece411/mp2/hdl/control.sv
+ option[46]: /home/davidm12/ece411/mp2/hdl/regfile.sv
+ option[47]: /home/davidm12/ece411/mp2/hdl/ir.sv
+ option[48]: /home/davidm12/ece411/mp2/hdl/datapath.sv
+ option[49]: /home/davidm12/ece411/mp2/hdl/alu.sv
+ option[50]: /home/davidm12/ece411/mp2/hvl/rvfimon.v
+ option[51]: /home/davidm12/ece411/mp2/hvl/tb_itf.sv
+ option[52]: /home/davidm12/ece411/mp2/hvl/random_tb.sv
+ option[53]: /home/davidm12/ece411/mp2/hvl/memory.sv
+ option[54]: /home/davidm12/ece411/mp2/hvl/top.sv
+ option[55]: /home/davidm12/ece411/mp2/hvl/source_tb.sv
+ option[56]: -load
+ option[57]: /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[58]: timescale=1ns/10ps
+Chronologic Simulation VCS Release R-2020.12-SP1-1_Full64
+Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Tue Nov 8 14:08:25 EST 2022 x86_64
+CPU cores: 4
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		262144
+memorylocked		64 kbytes
+maxproc		62025
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+UNAME=/bin/uname
+LC_ALL=C
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/lib:/software/Synopsys-2021_x86_64/syn/R-2020.09-SP4/linux64/tcl/lib:/class/ece411/software/lib64:/class/ece411/software/riscv-tools/lib:/class/ece411/software/lib64:/class/ece411/software/riscv-tools/lib
+__LMOD_REF_COUNT_PATH=/software/Synopsys-2021_x86_64/wv/R-2020.12-SP1/bin:1;/software/Synopsys-2021_x86_64/vui/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/vtran/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/vgen/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/vc_static/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/vcs-mx/O-2018.09-SP2-3/bin:1;/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/vc_ml_platform/2019.06/mlplatform/bin:1;/software/Synopsys-2021_x86_64/vcap/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/ufe_optional_spyglass-vcs/R-2020.12-SP1-1/SPYGLASS_HOME/bin:1;/software/Synopsys-2021_x86_64/txs/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/taurus_tsuprem4/R_2020.09/bin:1;/software/Synopsys-2021_x86_64/taurus_medici/	R_2020.09/bin:1;/software/Synopsys-2021_x86_64/syn/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/starrc/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/spyglass/R-2020.12-SP1-1/SPYGLASS_HOME/bin:1;/software/Synopsys-2021_x86_64/spx/R-2020.09-SP2/bin:1;/software/Synopsys-2021_x86_64/siliconsmart/R-2020.12-SP1/bin:1;/software/Synopsys-2021_x86_64/sentaurus/R_2020.09-SP1/bin:1;/software/Synopsys-2021_x86_64/raphael/R_2020.09a/bin:1;/software/Synopsys-2021_x86_64/prime/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/pcm_studio/R-2021.03/bin:1;/software/Synopsys-2021_x86_64/nt/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/mw/R-2020.09-SP4/bin/linux64:1;/software/Synopsys-2021_x86_64/mlwizard/R-2021.03-SP1/bin:1;/software/Synopsys-2021_x86_64/lc/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/laker/L-2020.06-3/bin:1;/software/Synopsys-2021_x86_64/idq/R-2020.09-SP4/linux64/iddq/bin:1;/software/Synopsys-2021_x86_64/identify/R-2021.03/bin:1;/software/Synopsys-2021_x86_64/icv_workbench/R-2020.09-SP2/bin:1;/software/Synopsys-2021_x86_64/icvalidator/R-2020.09-SP3-3/bin:1;/software/Synopsys-2021_x86_64/icc2/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/icc/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/hspice/R-2020.12-SP1/hspice/bin:1;/software/Synopsys-2021_x86_64/hsim/R-2020.12-SP1/hsimplus/bin:1;/software/Synopsys-2021_x86_64/fpga/R-2021.03/bin:1;/software/Synopsys-2021_x86_64/fm/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/finesim/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/esp/R-2020.09-SP2/bin:1;/software/Synopsys-2021_x86_64/dftview/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/customcompiler/R-2020.12-SP1/bin:1;/software/Synopsys-2021_x86_64/coretools/R-2020.12-SP3/bin:1;/usr/local/bin:1;/usr/local/sbin:1;/usr/bin:1;/usr/sbin:1;/software/ews/bin:2;/class/ece411/software/riscv-tools/bin:1;/class/ece411/software/bin:1
+LMODARCH=x86_64
+_ModuleTable002_=bW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9Nb2R1bGVzL21vZHVsZWZpbGVzIgosICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwgIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIKLCAiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsICIvZXRjL21vZHVsZWZpbGVzL2VudiIKLCAiL2V0Yy9tb2R1bGVmaWxlcy9jbGFzcyIsICIvZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xt
+__LMOD_STACK_LM_LICENSE_FILE=MjcwMDVAc3lub3BzeXMud2Vic3RvcmUuaWxsaW5vaXMuZWR1
+XDG_MENU_PREFIX=gnome-
+__LMOD_STACK_acroread_path=L3Vzci9iaW4vYWNyb3JlYWQ=
+LANG=en_US.UTF-8
+GDM_LANG=en_US.UTF-8
+HISTCONTROL=ignoredups
+DISPLAY=:1
+HOSTNAME=eceb-2022-25.ews.illinois.edu
+SCRNAME=vcs
+__LMOD_STACK_SYNOPSYS_LC_ROOT=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjFfeDg2XzY0L2xjL1ItMjAyMC4wOS1TUDU=
+OLDPWD=/home/davidm12/ece411/mp2/sim/simv.daidir/debug_dump/fsearch
+COBBLER_SERVER=cobbler-03.engrit.illinois.edu
+GNOME_SHELL_SESSION_MODE=classic
+TOOL_HOME=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64
+__LMOD_STACK_VCS_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjFfeDg2XzY0L3Zjcy9SLTIwMjAuMTItU1AxLTE=
+COLORTERM=truecolor
+LAMMPS_POTENTIALS=/usr/share/lammps/potentials
+OPENRAM=/class/ece411/openram
+MAKE_TERMOUT=/dev/pts/0
+USERNAME=davidm12
+OVA_UUM=0
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/software/Synopsys-2021_x86_64/syn/R-2020.09-SP4/linux64/tcl/lib:1;/class/ece411/software/lib64:1;/class/ece411/software/riscv-tools/lib:1
+XDG_VTNR=2
+SSH_AUTH_SOCK=/tmp/ssh-SLwIn4cd1y1i/agent.74201
+MFLAGS=
+VCS_MODE_FLAG=64
+apath=/usr/bin/acroread
+ECE411_SOFTWARE=/class/ece411/software
+which_declare=declare -f
+XDG_SESSION_ID=5
+USER=davidm12
+VCS_MX_HOME_INTERNAL=1
+DESKTOP_SESSION=gnome-classic
+FREEPDK45=/class/ece411/freepdk-45nm
+SYNOPSYS_LC_ROOT=/software/Synopsys-2021_x86_64/lc/R-2020.09-SP5
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+__LMOD_REF_COUNT_MODULEPATH=/usr/share/modulefiles:1;/usr/share/Modules/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/etc/modulefiles/env:1;/etc/modulefiles/class:1;/etc/modulefiles/ews_software:1
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/1e4d373b_3cff_4680_8b4b_ee8ace47c8ef
+PWD=/home/davidm12/ece411/mp2/sim
+VMR_MODE_FLAG=64
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HOME=/home/davidm12
+SOFTPATH=/software
+SSH_AGENT_PID=74229
+MSI2LMP_LIBRARY=/usr/share/lammps/frc_files
+LMOD_VERSION=8.7.7
+XDG_SESSION_TYPE=x11
+OPENRAM_TECH=/class/ece411/openram/technology
+KRB5CCNAME=KCM:
+VCS_ARG_ADDED_FOR_TMP=1
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+XDG_DATA_DIRS=/home/davidm12/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+STD_CELL_LIB=/class/ece411/freepdk-45nm/stdcells.db
+XDG_SESSION_DESKTOP=gnome-classic
+LMOD_SHELL_PRGM=bash
+DISTARCH=Linux-x86_64
+GJS_DEBUG_OUTPUT=stderr
+ASM=/home/davidm12/411mp4/mp4/testcode/mp4-cp3.s
+LMOD_sys=Linux
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpbIlN5bm9wc3lzX3g4Ni02NCJdID0gewpmbiA9ICIvZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZS9TeW5vcHN5c194ODYtNjQvMjAyMS5sdWEiLApmdWxsTmFtZSA9ICJTeW5vcHN5c194ODYtNjQvMjAyMSIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiU3lub3BzeXNfeDg2LTY0LzIwMjEiLAp3ViA9ICJeMDAwMDIwMjEuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi91c3Ivc2hhcmUv
+LOADEDMODULES=Synopsys_x86-64/2021
+_ModuleTable003_=b2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlOi9ldGMvbW9kdWxlZmlsZXMvZW52Oi9ldGMvbW9kdWxlZmlsZXMvY2xhc3M6L2V0Yy9tb2R1bGVmaWxlcy9ld3Nfc29mdHdhcmUiLAp9Cg==
+LMOD_ROOT=/usr/share/lmod
+MAIL=/var/spool/mail/davidm12
+LMOD_arch=x86_64
+WINDOWPATH=2
+SHELL=/bin/bash
+VTE_VERSION=5204
+TERM=xterm-256color
+MAKEOVERRIDES=${-*-command-variables-*-}
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=ibus
+_ModuleTable_Sz_=3
+LM_LICENSE_FILE=27005@synopsys.webstore.illinois.edu
+SNPS_VCS_TMPDIR=/tmp/vcs_20221203163932_81271
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+OPENRAM_HOME=/compiler
+GNOME_TERMINAL_SERVICE=:1.76
+MAKELEVEL=1
+VERDI_HOME=/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1
+TURBO_LOG_DIR=/tmp/vcs_20221203163932_81271
+XDG_SEAT=seat0
+SHLVL=4
+VCS_COM=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux64/bin/vcs1
+PYTHONPATH=:/class/ece411/software/python2.7/site-packages:/class/ece411/software/python2.7/site-packages
+MAKE_TERMERR=/dev/pts/0
+VCS_ARCH=linux64
+MANPATH=/usr/share/lmod/lmod/share/man:
+VCS_DEPTH=0
+__LMOD_STACK_VERDI_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjFfeDg2XzY0L3ZlcmRpL1ItMjAyMC4xMi1TUDEtMQ==
+MODULEPATH=/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/etc/modulefiles/env:/etc/modulefiles/class:/etc/modulefiles/ews_software
+GDK_BACKEND=x11
+GDMSESSION=gnome-classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=davidm12
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1081074/bus
+XDG_RUNTIME_DIR=/run/user/1081074
+XAUTHORITY=/run/user/1081074/gdm/Xauthority
+MODULEPATH_ROOT=/usr/share/modulefiles
+PATH=.:/software/Synopsys-2021_x86_64/wv/R-2020.12-SP1/bin:/software/Synopsys-2021_x86_64/vui/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/vtran/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/vgen/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/bin:/software/Synopsys-2021_x86_64/vc_static/R-2020.12-SP1-1/bin:/software/Synopsys-2021_x86_64/vcs-mx/O-2018.09-SP2-3/bin:/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/bin:/software/Synopsys-2021_x86_64/vc_ml_platform/2019.06/mlplatform/bin:/software/Synopsys-2021_x86_64/vcap/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/ufe_optional_spyglass-vcs/R-2020.12-SP1-1/SPYGLASS_HOME/bin:/software/Synopsys-2021_x86_64/txs/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/taurus_tsuprem4/R_2020.09/bin:/software/Synopsys-2021_x86_64/taurus_medici/	R_2020.09/bin:/software/Synopsys-2021_x86_64/syn/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/starrc/R-2020.09-SP5/bin:/software/Synopsys-2021_x86_64/spyglass/R-2020.12-SP1-1/SPYGLASS_HOME/bin:/software/Synopsys-2021_x86_64/spx/R-2020.09-SP2/bin:/software/Synopsys-2021_x86_64/siliconsmart/R-2020.12-SP1/bin:/software/Synopsys-2021_x86_64/sentaurus/R_2020.09-SP1/bin:/software/Synopsys-2021_x86_64/raphael/R_2020.09a/bin:/software/Synopsys-2021_x86_64/prime/R-2020.09-SP5/bin:/software/Synopsys-2021_x86_64/pcm_studio/R-2021.03/bin:/software/Synopsys-2021_x86_64/nt/R-2020.09-SP5/bin:/software/Synopsys-2021_x86_64/mw/R-2020.09-SP4/bin/linux64:/software/Synopsys-2021_x86_64/mlwizard/R-2021.03-SP1/bin:/software/Synopsys-2021_x86_64/lc/R-2020.09-SP5/bin:/software/Synopsys-2021_x86_64/laker/L-2020.06-3/bin:/software/Synopsys-2021_x86_64/idq/R-2020.09-SP4/linux64/iddq/bin:/software/Synopsys-2021_x86_64/identify/R-2021.03/bin:/software/Synopsys-2021_x86_64/icv_workbench/R-2020.09-SP2/bin:/software/Synopsys-2021_x86_64/icvalidator/R-2020.09-SP3-3/bin:/software/Synopsys-2021_x86_64/icc2/R-2020.09-SP5/bin:/software/Synopsys-2021_x86_64/icc/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/hspice/R-2020.12-SP1/hspice/bin:/software/Synopsys-2021_x86_64/hsim/R-2020.12-SP1/hsimplus/bin:/software/Synopsys-2021_x86_64/fpga/R-2021.03/bin:/software/Synopsys-2021_x86_64/fm/R-2020.09-SP5/bin:/software/Synopsys-2021_x86_64/finesim/R-2020.12-SP1-1/bin:/software/Synopsys-2021_x86_64/esp/R-2020.09-SP2/bin:/software/Synopsys-2021_x86_64/dftview/R-2020.09-SP4/bin:/software/Synopsys-2021_x86_64/customcompiler/R-2020.12-SP1/bin:/software/Synopsys-2021_x86_64/coretools/R-2020.12-SP3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/software/ews/bin:/class/ece411/software/riscv-tools/bin:/class/ece411/software/bin:/class/ece411/software/riscv-tools/bin:/class/ece411/software/bin
+VCS_HOME=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1
+_LMFILES_=/etc/modulefiles/ews_software/Synopsys_x86-64/2021.lua
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+__LMOD_STACK_apath=L3Vzci9iaW4vYWNyb3JlYWQ=
+MODULESHOME=/usr/share/lmod/lmod
+LMOD_SETTARG_FULL_SUPPORT=no
+sysc_uni_pwd=/home/davidm12/ece411/mp2/sim
+MAKEFLAGS= -- ASM=/home/davidm12/411mp4/mp4/testcode/mp4-cp3.s
+HISTSIZE=1000
+LMOD_PKG=/usr/share/lmod/lmod
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/74201,unix/unix:/tmp/.ICE-unix/74201
+acroread_path=/usr/bin/acroread
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD $LMOD_SHELL_PRGM "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+_=./simv
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_EXEC_DONE=1
+DVE=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+VCS_LCAMSG_PRINT_OFF=1
+FLEXLM_BORROWFILE=/home/davidm12/.eceb-2022-25.ews.illinois.edu-borrow.txt
+Runtime command line arguments:
+argv[0]=simv
+argv[1]=-lca
+argv[2]=+lint=all,noNS
+299 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.190 user,  316.60M mem
+300 Elapsed time:    0:00:01    Sat Dec  3 10:39:38 2022
+301 pliAppInit
+302 [pliEnvSetDefaultValueWithLCA] start
+303 [pliEnvSetDefaultValueWithLCA] end
+304 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+305 FSDB_GATE is set.
+306 FSDB_RTL is set.
+307 FSDB_FIELDTYPE is set.
+308 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+309 Enable Parallel Dumping.
+310 pliAppMiscSet: New Sim Round
+311 pliEntryInit
+312 LIBSSCORE=found /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/share/PLI/lib/LINUXAMD64/libsscore_vcs202012.so through $NOVAS_HOME setting.
+313 FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1-1, Linux x86_64/64bit, 04/20/2021
+314 (C) 1996 - 2021 by Synopsys, Inc.
+315 sps_call_fsdbDumpfile_main at 0 : /home/davidm12/ece411/mp2/hvl/top.sv(42)
+316 argv[0]: (dump.fsdb)
+317 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+318 *Verdi* : Create FSDB file 'dump.fsdb'
+319 [spi_vcs_vd_ppi_create_root]: no upf option
+320 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
+321 compile option from '/home/davidm12/ece411/mp2/sim/simv.daidir/vcs_rebuild'.
+322   "vcs '-R' '/home/davidm12/ece411/mp2/pkg/rv32i_mux_types.sv' '/home/davidm12/ece411/mp2/pkg/rv32i_types.sv' '/home/davidm12/ece411/mp2/hdl/register.sv' '/home/davidm12/ece411/mp2/hdl/mp2.sv' '/home/davidm12/ece411/mp2/hdl/pc_reg.sv' '/home/davidm12/ece411/mp2/hdl/cmp.sv' '/home/davidm12/ece411/mp2/hdl/control.sv' '/home/davidm12/ece411/mp2/hdl/regfile.sv' '/home/davidm12/ece411/mp2/hdl/ir.sv' '/home/davidm12/ece411/mp2/hdl/datapath.sv' '/home/davidm12/ece411/mp2/hdl/alu.sv' '/home/davidm12/ece411/mp2/hvl/rvfimon.v' '/home/davidm12/ece411/mp2/hvl/tb_itf.sv' '/home/davidm12/ece411/mp2/hvl/random_tb.sv' '/home/davidm12/ece411/mp2/hvl/memory.sv' '/home/davidm12/ece411/mp2/hvl/top.sv' '/home/davidm12/ece411/mp2/hvl/source_tb.sv' '-full64' '-lca' '-sverilog' '+lint=all,noNS' '-timescale=1ns/10ps' '-debug_acc+all' '-kdb' '-fsdb' '-msg_config=../warn.config' 2>&1"
+323 DVDI_is_vir_unload_enabled is enable
+324 FSDB_VCS_ENABLE_NATIVE_VC is enable
+325 sps_call_fsdbDumpvars_vd_main at 0 : /home/davidm12/ece411/mp2/hvl/top.sv(43)
+326 argv[0]: (0)
+327 argv[1]: (handle) mp2_tb
+328 argv[2]: (+all)
+329 *Verdi* : Begin traversing the scope (mp2_tb), layer (0).
+330 *Verdi* : Enable +all dumping.
+331 *Verdi* : End of traversing.
+332 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.030 sys,  0.210 user,  416.55M mem
+                   incr: 0.000 sys,  0.010 user,  7.49M mem
+                   accu: 0.000 sys,  0.010 user,  7.49M mem
+              accu incr: 0.000 sys,  0.010 user,  7.49M mem
+
+          Count usage: 2071 var,  1566 idcode,  338 callback
+                 incr: 2071 var,  1566 idcode,  338 callback
+                 accu: 2071 var,  1566 idcode,  338 callback
+            accu incr: 2071 var,  1566 idcode,  338 callback
+333 Elapsed time:    0:00:01    Sat Dec  3 10:39:38 2022
+334 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.030 sys,  0.210 user,  417.60M mem
+                   incr: 0.000 sys,  0.000 user,  1.05M mem
+                   accu: 0.000 sys,  0.010 user,  8.54M mem
+              accu incr: 0.000 sys,  0.000 user,  1.05M mem
+
+          Count usage: 2071 var,  1566 idcode,  338 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 2071 var,  1566 idcode,  338 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+335 Elapsed time:    0:00:01    Sat Dec  3 10:39:38 2022
+336 End of simulation at 1603229500
+337 Memory usage: 562.057 M
+338 Elapsed time:    0:00:05    Sat Dec  3 10:39:42 2022
+339 Begin FSDB profile info:
+340 FSDB Writer : bc1(4605846) bcn(5812800) mtf/stf(0/1)
+FSDB Writer elapsed time : flush(1.178786) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+341 End FSDB profile info
+342 FSDB closed. Name: dump.fsdb Size: 2164186
+343 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+344                      - BlockUsed:96 Acquire:13624419 BufferUsed:185233482
+345                      - Flush:3 Expand:0 ProducerWait:0 ConsumerWait:76
+346                      - MainProducerTime:4.871704282 TotalConsumerTime:1.051907167
+347                      - ElapsedTime:5.060830000
+348 Producer   0 profile - BlockUsed:96 Acquire:13624419 BufferUsed:185233482
+349 Consumer   0 profile - Affinity:-1 CPUTime:1.051907167 LifeTime:4.408402461 (0.24%)
+350                      - BlockUsed:96 Acquire:13624419 BufferUsed:185233482
+351 SimExit
+352 Elapsed time:    0:00:06    Sat Dec  3 10:39:43 2022
+353 Sim process exit

@@ -1,0 +1,119 @@
+Thread 10 (Thread 0x7f0e97f86700 (LWP 1221240)):
+#0  0x00007f0ea7e4145c in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x0000000009bfd983 in ffrSynchronizer::CondWait(int) ()
+#2  0x0000000009cfad63 in ffrObject::StartSecondaryThread(void*) ()
+#3  0x000000000a026304 in sdp_wrap_start_routine ()
+#4  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 9 (Thread 0x7f0e98787700 (LWP 1221239)):
+#0  0x00007f0ea51cb81f in select () at /lib64/libc.so.6
+#1  0x00007f0eaaa3b133 in qt_safe_select(int, fd_set*, fd_set*, fd_set*, timeval const*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#2  0x00007f0eaaa3dffc in QEventDispatcherUNIXPrivate::doSelect(QFlags<QEventLoop::ProcessEventsFlag>, timeval*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#3  0x00007f0eaaa3eb22 in QEventDispatcherUNIX::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#4  0x00007f0eaaa13e2f in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#5  0x00007f0eaaa140c8 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#6  0x00007f0eaa935e33 in QThread::exec() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#7  0x00007f0eaa9f9e3f in QInotifyFileSystemWatcherEngine::run() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#8  0x00007f0eaa938661 in QThreadPrivate::start(void*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#9  0x000000000a026304 in sdp_wrap_start_routine ()
+#10 0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#11 0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 8 (Thread 0x7f0e98f88700 (LWP 1221238)):
+#0  0x00007f0ea51cb81f in select () at /lib64/libc.so.6
+#1  0x00007f0eaaa3b133 in qt_safe_select(int, fd_set*, fd_set*, fd_set*, timeval const*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#2  0x00007f0eaaa3dffc in QEventDispatcherUNIXPrivate::doSelect(QFlags<QEventLoop::ProcessEventsFlag>, timeval*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#3  0x00007f0eaaa3eb22 in QEventDispatcherUNIX::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#4  0x00007f0eaaa13e2f in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#5  0x00007f0eaaa140c8 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#6  0x00007f0eaa935e33 in QThread::exec() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#7  0x00007f0eaa9f9e3f in QInotifyFileSystemWatcherEngine::run() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#8  0x00007f0eaa938661 in QThreadPrivate::start(void*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#9  0x000000000a026304 in sdp_wrap_start_routine ()
+#10 0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#11 0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 7 (Thread 0x7f0e99789700 (LWP 1221226)):
+#0  0x00007f0ea7e4145c in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00007f0eaa938b7b in QWaitCondition::wait(QMutex*, unsigned long) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#2  0x00007f0eab3996ce in QFileInfoGatherer::run() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtGui.so.4
+#3  0x00007f0eaa938661 in QThreadPrivate::start(void*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#4  0x000000000a026304 in sdp_wrap_start_routine ()
+#5  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#6  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 6 (Thread 0x7f0e99f8a700 (LWP 1221225)):
+#0  0x00007f0ea7e4145c in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x00007f0eaa938b7b in QWaitCondition::wait(QMutex*, unsigned long) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#2  0x00007f0eab3996ce in QFileInfoGatherer::run() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtGui.so.4
+#3  0x00007f0eaa938661 in QThreadPrivate::start(void*) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#4  0x000000000a026304 in sdp_wrap_start_routine ()
+#5  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#6  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 5 (Thread 0x7f0e9b7c8700 (LWP 1221224)):
+#0  0x00007f0ea7e4145c in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x0000000009bfd983 in ffrSynchronizer::CondWait(int) ()
+#2  0x0000000009d09039 in ffrObject::LoadThread(void*) ()
+#3  0x000000000a026304 in sdp_wrap_start_routine ()
+#4  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 4 (Thread 0x7f0e9bdc9700 (LWP 1221223)):
+#0  0x00007f0ea7e4145c in pthread_cond_wait@@GLIBC_2.3.2 () at /lib64/libpthread.so.0
+#1  0x0000000009bfd983 in ffrSynchronizer::CondWait(int) ()
+#2  0x0000000009d09039 in ffrObject::LoadThread(void*) ()
+#3  0x000000000a026304 in sdp_wrap_start_routine ()
+#4  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 3 (Thread 0x7f0e9a78b700 (LWP 1221210)):
+#0  0x00007f0ea51cb81f in select () at /lib64/libc.so.6
+#1  0x0000000009f845b0 in NotifierThreadProc ()
+#2  0x000000000a026304 in sdp_wrap_start_routine ()
+#3  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#4  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 2 (Thread 0x7f0ea2088700 (LWP 1221201)):
+#0  0x00007f0ea519e9b8 in nanosleep () at /lib64/libc.so.6
+#1  0x00007f0ea519e8be in sleep () at /lib64/libc.so.6
+#2  0x0000000007a2d9c2 in LicenseCheckUtility ()
+#3  0x000000000a026304 in sdp_wrap_start_routine ()
+#4  0x00007f0ea7e3b1cf in start_thread () at /lib64/libpthread.so.0
+#5  0x00007f0ea50dde73 in clone () at /lib64/libc.so.6
+Thread 1 (Thread 0x7f0eacd93100 (LWP 1221193)):
+#0  0x00007f0ea51c4b54 in read () at /lib64/libc.so.6
+#1  0x00007f0ea5137fc8 in __GI__IO_file_underflow () at /lib64/libc.so.6
+#2  0x00007f0ea5139126 in _IO_default_uflow () at /lib64/libc.so.6
+#3  0x00007f0ea512c9ca in _IO_getline_info () at /lib64/libc.so.6
+#4  0x00007f0ea512b9cf in fgets () at /lib64/libc.so.6
+#5  0x000000000a128d41 in _sys_fgets ()
+#6  0x000000000a0b2acb in sysGetCallStack ()
+#7  0x0000000009c188e9 in ErrorMessage(ffrErrorSeverity, char*, char*, char*, int) ()
+#8  0x0000000009cfb5e9 in ffrRealObject::LoadPrimarySignalArrayByTimeRange(unsigned int, long long*, fsdbXTag&, fsdbXTag&) ()
+#9  0x0000000009cfc28c in ffrRealObject::ffrLoadSecondaryVarVCOnDemand(ffrVar*, void*&, fsdbXTag*, fsdbXTag*, char, char, char) ()
+#10 0x0000000009b92ee0 in ffrRealObject::ReadOrComputeVCOnDemand(ffrVar*, void*&, fsdbXTag*, fsdbXTag*, char, char, char) ()
+#11 0x0000000009b5b6d8 in ffrVCIterOne::GotoXTagLODThreadSafe(void*, int*) ()
+#12 0x0000000009b5c027 in ffrVCIterOne::__GotoXTagLODThreadSafe(ffrVCIterOne*, void*, int*) ()
+#13 0x0000000009b5e899 in ffrVCIterOne::ffrGotoXTag(void*, int*) ()
+#14 0x0000000008a5eb8c in fsdbUI64DigitalAdapter_C::jump_at(HybridNumber_C const&) ()
+#15 0x0000000008a5fe82 in fsdbUI64DigitalAdapter_C::jump_at(HybridTag_C const&) ()
+#16 0x00000000035c31f7 in fsdbUI64DigitalAdapter_C::jump_at_by_physical_vc(HybridTag_C const&) ()
+#17 0x0000000005420b68 in waveValueChangeTemplate_C<daValueChangeHandle_C>::jump_at_by_physical_vc(HybridTag_C const&) ()
+#18 0x00000000054e47bd in dbLeafNode_C::current_value_of_signal(ulString&, char*) ()
+#19 0x0000000005335029 in twRedrawer_C::do_draw_value_window() ()
+#20 0x000000000533af7e in EventStub_C<twRedrawer_C>::Forward() ()
+#21 0x000000000533c0b9 in twSubjectCenter_C::forward_events() ()
+#22 0x0000000005362678 in twMainWindow_C::flush_events_to_observer() ()
+#23 0x00000000053287cc in twDataViewer_C::LegendDrawEndHandleCB(CWaveListWnd*, _tagWScreenItem*, _tagWDRAWWNDREASON, int, void*) ()
+#24 0x000000000793e8e0 in CWaveListWnd::ScrollLine(int, char) ()
+#25 0x000000000793e8f8 in CWaveListWnd::ScrollLineUp(int, char) ()
+#26 0x00000000053e1236 in vcCurveWinScreenBox_C::CurveRedrawCB(_wtWindowRec*, char*, char*) ()
+#27 0x0000000007a20b37 in wmiCallCallback ()
+#28 0x0000000007a370e9 in wtCallCallback ()
+#29 0x00000000079d8d77 in wtGwiRedrawCB ()
+#30 0x0000000007a3aa12 in wtiWindowScrollVCBwin ()
+#31 0x0000000007a3aec1 in wtiWheelScrollWin ()
+#32 0x0000000007a3aef6 in s_WheelScrollCB ()
+#33 0x0000000007a00b57 in qwTimerProc ()
+#34 0x00007f0ea681e668 in XtAppProcessEvent () at /lib64/libXt.so.6
+#35 0x000000000787f07a in QtMotif::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+#36 0x00007f0eaaa13e2f in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#37 0x00007f0eaaa140c8 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#38 0x00007f0eaaa17e3c in QCoreApplication::exec() () at /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/lib/Qt/libQtCore.so.4
+#39 0x0000000007858c21 in QwApplication::exec() ()
+#40 0x0000000002ae6370 in FUNC_DEBMAIN_LOOP() ()
+#41 0x0000000002aee677 in main ()

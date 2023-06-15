@@ -1,0 +1,2285 @@
+simSetSimulator "-vcssv" -exec "/home/davidm12/411mp4/mp4/sim/simv" -args
+debImport "-dbdir" "/home/davidm12/411mp4/mp4/sim/simv.daidir"
+debLoadSimResult /home/davidm12/411mp4/mp4/sim/dump.fsdb
+wvCreateWindow
+verdiDockWidgetHide -dock widgetDock_MTB_SOURCE_TAB_1
+debReload
+wvRestoreSignal -win $_nWave2 "/home/davidm12/411mp4/mp4/signal.rc" \
+           -overWriteAutoAlias on -appendSignals on
+verdiWindowBeWindow -win $_nWave2
+wvResizeWindow -win $_nWave2 -8 20 1276 563
+verdiWindowBeDocked -win $_nWave2
+wvZoom -win $_nWave2 934735996.931067 956452999.763928
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+debReload
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvSelectGroup -win $_nWave2 {Registers}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 24
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 24
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoom -win $_nWave2 116728890.226629 158353145.656280
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoom -win $_nWave2 347434961.680625 360641524.309862
+wvZoom -win $_nWave2 352672691.901827 352996932.344094
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "Branch Predictor" 3 )} 
+wvSetPosition -win $_nWave2 {("Branch Predictor" 3)}
+srcHBSelect "mp4_tb.dut.DP.BP.btb" -win $_nTrace1
+debReload
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 62
+wvZoom -win $_nWave2 915241404.202078 941976790.887630
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 24
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvScrollUp -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+debReload
+debReload
+wvZoom -win $_nWave2 721612215.533522 735529519.593957
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+debReload
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 3185258592.445704 3353404713.361662
+wvZoom -win $_nWave2 3322919297.670813 3353087156.947520
+wvZoomOut -win $_nWave2
+debReload
+srcHBSelect "mp4_tb.dut" -win $_nTrace1
+srcHBSelect "mp4_tb.dut" -win $_nTrace1
+debReload
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 4486710696.883853 4560051160.198300
+debReload
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 4452197537.677053 4560051160.198300
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 24
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+verdiWindowResize -win $_Verdi_1 -10 "20" "960" "977"
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 4395576575.033830 4556314958.930987
+wvSetCursor -win $_nWave2 4522601224.824530 -snap {("Registers" 10)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvPrevView -win $_nWave2
+wvPrevView -win $_nWave2
+wvZoom -win $_nWave2 0.000000 86551437.483085
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 4445034539.309878 4556314958.930987
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoom -win $_nWave2 0.000000 49457964.276049
+wvZoom -win $_nWave2 0.000000 4885563.453520
+wvSetCursor -win $_nWave2 3699872.241898 -snap {("Registers" 9)}
+wvScrollUp -win $_nWave2 24
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvZoom -win $_nWave2 3093969.819009 3874073.320383
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvZoom -win $_nWave2 3630119.437883 3720902.795282
+wvScrollDown -win $_nWave2 0
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 2292809.332581 2509018.681732
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 3716811.328310 -snap {("Registers" 9)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvZoom -win $_nWave2 2237576.593113 2649515.380130
+wvZoom -win $_nWave2 2467236.647580 2493993.158780
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSelectGroup -win $_nWave2 {ALU}
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSetCursor -win $_nWave2 2502584.647015 -snap {("ALU" 12)}
+wvZoom -win $_nWave2 1520088.452261 3800221.130652
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvZoom -win $_nWave2 2417640.003200 2550313.487870
+wvSetCursor -win $_nWave2 3665210.610294 -snap {("ALU" 17)}
+wvSelectSignal -win $_nWave2 {( "ALU" 21 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 20 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 21 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 20 )} 
+wvSetCursor -win $_nWave2 3675264.352028 -snap {("ALU" 20)}
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSetCursor -win $_nWave2 3684779.500455 -snap {("ALU" 20)}
+wvSetCursor -win $_nWave2 3695012.773292 -snap {("ALU" 20)}
+wvSetCursor -win $_nWave2 3674007.634312 -snap {("ALU" 20)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 3695192.304394 -snap {("Registers" 9)}
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/ID/regfile/data\[8\]\[31:0\]" -driver
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "in" -line 25 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSelectGroup -win $_nWave2 \
+           {Registers//mp4_tb/dut/DP/ID/regfile/data[8]@3695000(1ps)#ActiveDriver}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("Registers" 10)}
+wvSelectSignal -win $_nWave2 {( "Registers" 10 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/ID/regfile/in\[31:0\]" -driver
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver" \
+           3 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver" \
+           3 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/MEM/regfilemux_out\[31:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver" \
+           7 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver" \
+           6 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver" \
+           5 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/MEM/alu_out_EXMEM\[31:0\]" -driver
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           4 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           6 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           7 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           6 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           8 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectGroup -win $_nWave2 \
+           {Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver}
+wvSelectGroup -win $_nWave2 \
+           {Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver}
+wvSelectSignal -win $_nWave2 \
+           {( "Registers//mp4_tb/dut/DP/ID/regfile/in@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@3695000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" \
+           10 )} 
+wvSetCursor -win $_nWave2 3665928.734704 -snap \
+           {("/mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" 10)}
+wvSetCursor -win $_nWave2 3674007.634312 -snap \
+           {("/mp4_tb/dut/DP/MEM/alu_out_EXMEM@3695000(1ps)#ActiveDriver" 10)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "ALU" 14 )} 
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 6
+wvSelectSignal -win $_nWave2 {( "ALU" 14 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 14 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/EX/u_imm_IDEX\[31:0\]" -driver
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           4 )} 
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           3 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           4 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/DP/ID/instr\[31:12\]" \
+           -driver
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver//mp4_tb/dut/DP/ID/instr[31:12]@3675000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/ID/instr_IFID\[31:12\]" -driver
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 3
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "ALU" 14 )} 
+wvSetCursor -win $_nWave2 3674546.227619 -snap {("ALU" 9)}
+wvSetCursor -win $_nWave2 3665569.672499 -snap {("ALU" 2)}
+wvSetCursor -win $_nWave2 3673469.041004 -snap {("ALU" 2)}
+wvSetCursor -win $_nWave2 3665749.203601 -snap {("ALU" 1)}
+wvSetCursor -win $_nWave2 3666826.390216 -snap {("ALU" 2)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 3670417.012264 -snap \
+           {("/mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" 4)}
+wvSetCursor -win $_nWave2 3664851.548089 -snap \
+           {("/mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" 4)}
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           2 )} 
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           3 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           3 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver//mp4_tb/dut/DP/ID/instr[31:12]@3675000(1ps)#ActiveDriver" \
+           2 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 2467100.821909 2531732.018771
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 3 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 4 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 3 )} 
+wvSelectSignal -win $_nWave2 {( "RVFI" 6 )} 
+wvSelectGroup -win $_nWave2 {RVFI}
+wvScrollDown -win $_nWave2 2
+wvSetCursor -win $_nWave2 2494912.351817 -snap {("Pipeline Status" 1)}
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 2 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 7 )} 
+wvSetPosition -win $_nWave2 {("Pipeline Status" 7)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 \
+           {("ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver//mp4_tb/dut/DP/ID/instr[31:12]@3675000(1ps)#ActiveDriver" 2)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 18 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 8 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 7 )} 
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 5 )} 
+wvSetPosition -win $_nWave2 {("Pipeline Status" 5)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 \
+           {("ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver//mp4_tb/dut/DP/ID/instr[31:12]@3675000(1ps)#ActiveDriver" 2)}
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 5 )} 
+wvSetPosition -win $_nWave2 {("Pipeline Status" 5)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("Pipeline Status" 5)}
+wvSetPosition -win $_nWave2 \
+           {("ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver//mp4_tb/dut/DP/ID/instr[31:12]@3675000(1ps)#ActiveDriver" 2)}
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 6 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 6 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 7 )} 
+wvSetPosition -win $_nWave2 {("Pipeline Status" 7)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("Pipeline Status" 7)}
+wvSetPosition -win $_nWave2 \
+           {("ALU//mp4_tb/dut/DP/EX/u_imm_IDEX@3675000(1ps)#ActiveDriver//mp4_tb/dut/DP/ID/instr[31:12]@3675000(1ps)#ActiveDriver" 2)}
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 1 )} 
+srcHBSelect "mp4_tb.dut.DP.ID" -win $_nTrace1
+srcSetScope "mp4_tb.dut.DP.ID" -delim "." -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP.ID" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 5
+wvSelectGroup -win $_nWave2 {Branch Predictor}
+wvScrollDown -win $_nWave2 15
+verdiWindowResize -win $_Verdi_1 -10 "20" "1520" "977"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "u_imm_IDEX" -line 168 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 160 -pos 1 -win $_nTrace1
+wvSelectGroup -win $_nWave2 {ALU}
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 160 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvScrollDown -win $_nWave2 2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rvfi_IDEX" -line 155 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "funct3_IDEX" -line 153 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "ctrl_IDEX" -line 152 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_addr_IDEX" -line 151 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "u_imm_IDEX" -line 148 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 4
+wvScrollUp -win $_nWave2 3
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 3616091.559169 3743653.071226
+wvSetCursor -win $_nWave2 3664896.849001 -snap {("ALU" 2)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "u_imm_IDEX" -line 148 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 160 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 160 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rs1_out" -line 162 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rs2_out" -line 163 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr\[31:12\]" -line 168 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 2481324.380668 2511177.113282
+srcDeselectAll -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP.IF" -win $_nTrace1
+srcSetScope "mp4_tb.dut.DP.IF" -delim "." -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP.IF" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 106 -pos 1 -win $_nTrace1
+srcAction -pos 105 5 3 -win $_nTrace1 -name "stall" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP" -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP.IF" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {102 103 6 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {100 101 6 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 99 5 9 -win $_nTrace1 -name "32'h00000013" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_IFID" -line 100 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "flush" -line 98 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst" -line 98 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_addr_IFID" -line 101 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "flush" -line 98 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 106 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall" -line 106 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 11
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "flush" -line 98 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rst" -line 98 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_IFID" -line 100 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_addr_IFID" -line 101 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 2494952.302485 -snap {("ALU" 3)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_IFID" -line 100 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_IFID" -line 108 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_IFID" -line 100 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_mem_rdata" -line 18 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_mem_rdata" -line 108 -pos 1 -win $_nTrace1
+wvSelectSignal -win $_nWave2 {( "ALU" 3 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/DP/ID/instr\[31:12\]" \
+           -driver
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/ID/instr[31:12]@2495000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 9 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/ID/instr[31:12]@2495000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 9 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/ID/instr[31:12]@2495000(1ps)#ActiveDriver" \
+           2 )} 
+wvScrollDown -win $_nWave2 4
+wvSelectSignal -win $_nWave2 {( "ALU" 11 )} 
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "ALU" 11 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/IF/instr_mem_rdata\[31:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver" \
+           3 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/gcacheI/bus/mem_rdata_line\[255:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/gcacheI/datapath/line_out\[255:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver" \
+           1 )} 
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "datain\[8*i +: 8\]" -line 14 -pos 1 -win $_nTrace1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver" \
+           3 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver" \
+           3 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/gcacheI/datapath/DM_cache/datain\[255:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver" \
+           1 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/gcacheI/datapath/pmem_rdata\[255:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/AR/rdata\[255:0\]" \
+           -driver
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver" \
+           2 )} 
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/GCA/linebuf\[255:0\]" \
+           -driver
+wvScrollDown -win $_nWave2 2
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/linebuf@2465000(1ps)#ActiveDriver" \
+           6 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/linebuf@2465000(1ps)#ActiveDriver" \
+           6 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/GCA/burst_i\[63:0\]" \
+           -driver
+wvScrollDown -win $_nWave2 2
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/linebuf@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/burst_i@2455000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/itf/mcb/rdata\[63:0\]" \
+           -driver
+wvScrollDown -win $_nWave2 4
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/linebuf@2465000(1ps)#ActiveDriver" \
+           12 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "ALU//mp4_tb/dut/DP/IF/instr_mem_rdata@2495000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/bus/mem_rdata_line@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/line_out@2465000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/DM_cache/datain@2475000(1ps)#ActiveDriver//mp4_tb/dut/gcacheI/datapath/pmem_rdata@2475000(1ps)#ActiveDriver//mp4_tb/dut/AR/rdata@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/linebuf@2465000(1ps)#ActiveDriver//mp4_tb/dut/GCA/burst_i@2455000(1ps)#ActiveDriver//mp4_tb/itf/mcb/rdata@2455000(1ps)#ActiveDriver" \
+           1 )} 
+debReload
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvZoom -win $_nWave2 2401865383.487298 2447147998.729792
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 2394030689.279449 2448690535.853915
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 0.000000 7547102.540416
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvSetCursor -win $_nWave2 4281920.378973 -snap {("Registers" 9)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+verdiWindowResize -win $_Verdi_1 -10 "20" "1030" "977"
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 1957811030.269393 -snap {("Registers" 9)}
+wvSetCursor -win $_nWave2 2423202929.117834 -snap {("Registers" 9)}
+wvZoom -win $_nWave2 2382748725.668552 2413089378.255514
+wvSetCursor -win $_nWave2 2389686946.593325 -snap {("Registers" 9)}
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 2258901597.904210 -snap {("Registers" 9)}
+wvSetCursor -win $_nWave2 2271502907.260475 -snap {("Registers" 9)}
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 18177415.698393 87857509.208900
+assCtrlInvoke -analyzer
+assCtrlClose -analyzer
+wvZoom -win $_nWave2 1894885.114006 4823343.926562
+wvSetCursor -win $_nWave2 3683091.113267 -snap {("Registers" 9)}
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSetSearchMode -win $_nWave2 -anyChange
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvSearchNext -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 1223945990.358467 -snap {("Registers" 9)}
+wvZoom -win $_nWave2 1136088481.149567 1326951345.982695
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 1672322244.252163 -snap {("Registers" 9)}
+wvZoom -win $_nWave2 1566287319.344870 1645056120.704573
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvSetSearchMode -win $_nWave2 -analog
+wvSetSearchMode -win $_nWave2 -value 
+wvSetSearchMode -win $_nWave2 -value 2680
+wvSearchPrev -win $_nWave2
+wvSetCursor -win $_nWave2 1061293238.260810 -snap {("Registers" 9)}
+wvSetCursor -win $_nWave2 1071711361.555604 -snap {("Registers" 9)}
+wvSetCursor -win $_nWave2 1088166154.423082 -snap {("Registers" 9)}
+wvSetCursor -win $_nWave2 1110779323.910155 -snap {("Registers" 9)}
+wvSetCursor -win $_nWave2 1128524211.484773 -snap {("Registers" 8)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvSetSearchMode -win $_nWave2 -value 1ca0
+wvSearchNext -win $_nWave2
+wvZoom -win $_nWave2 1037552490.111248 1109542255.253399
+wvZoom -win $_nWave2 1144264636.412464 1146044358.665669
+wvSetCursor -win $_nWave2 1145094220.172127 -snap {("Registers" 9)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 1143325057.457732 1146422522.145634
+wvSetCursor -win $_nWave2 1145113087.134689 -snap {("Registers" 9)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 28
+wvSelectGroup -win $_nWave2 {ALU}
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 32
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvSelectGroup -win $_nWave2 {rvfi official}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvSelectGroup -win $_nWave2 {rvfi official/rvfi(rvfi_itf)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvZoom -win $_nWave2 1145055655.774592 1145116915.892029
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 32
+wvScrollUp -win $_nWave2 6
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvSelectSignal -win $_nWave2 {( "Registers" 10 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("Clock and Reset" 0)}
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 32
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvSelectSignal -win $_nWave2 {( "rvfi official/rvfi(rvfi_itf)" 14 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/rvfi/rd_wdata\[31:0\]" \
+           -driver
+wvScrollDown -win $_nWave2 2
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/regfilemux_out_MEMWB\[31:0\]" -driver
+wvScrollDown -win $_nWave2 4
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver" \
+           3 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/MEM/regfilemux_out\[31:0\]" -driver
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver" \
+           2 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal \
+           "/mp4_tb/dut/DP/MEM/alu_out_EXMEM\[31:0\]" -driver
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoom -win $_nWave2 1144722250.046067 1144743452.558901
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" \
+           10 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/DP/EX/alu_out\[31:0\]" \
+           -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" \
+           5 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" \
+           4 )} 
+wvShowOneTraceSignals -win $_nWave2 -signal "/mp4_tb/dut/DP/EX/ALU/b\[31:0\]" \
+           -driver
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           3 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           4 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           4 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           7 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           4 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           2 )} 
+wvSelectSignal -win $_nWave2 \
+           {( "rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" \
+           1 )} 
+wvSetCursor -win $_nWave2 1144735063.282459 -snap \
+           {("/mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" 1)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 32
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 4
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvSelectGroup -win $_nWave2 {ALU}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 4
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvSetCursor -win $_nWave2 1144704271.153450 -snap {("ALU" 7)}
+wvSetCursor -win $_nWave2 1144704957.810416 -snap {("ALU" 17)}
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "ALU" 6 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 7 )} 
+wvScrollUp -win $_nWave2 16
+wvSelectSignal -win $_nWave2 {( "ALU" 6 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 6 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 7 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 4)}
+wvSelectSignal -win $_nWave2 {( "ALU" 6 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/ALU/b@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 4)}
+srcHBSelect "mp4_tb.dut.DP.EX" -win $_nTrace1
+srcSetScope "mp4_tb.dut.DP.EX" -delim "." -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP.EX" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_addr_IDEX" -line 27 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 4)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 3)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 2)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 1)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/EX/alu_out@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 10)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 9)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 8)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 7)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 6)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 5)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 4)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 3)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 2)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 1)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/alu_out_EXMEM@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver" 2)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver" 1)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/MEM/regfilemux_out@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver" 3)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver" 2)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver" 1)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver//mp4_tb/dut/DP/regfilemux_out_MEMWB@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver" 2)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver" 1)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 14)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 13)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 12)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 11)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 12)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 13)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 14)}
+wvSetPosition -win $_nWave2 \
+           {("rvfi official/rvfi(rvfi_itf)//mp4_tb/rvfi/rd_wdata@1145105000(1ps)#ActiveDriver" 0)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 14)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 13)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 12)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 11)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 10)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 9)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 8)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 7)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 6)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 5)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 4)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 3)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 2)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 1)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 2)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 1)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 0)}
+wvSetPosition -win $_nWave2 {("rvfi official" 0)}
+wvSetPosition -win $_nWave2 {("Registers" 32)}
+wvSetPosition -win $_nWave2 {("Registers" 31)}
+wvSetPosition -win $_nWave2 {("Registers" 30)}
+wvSetPosition -win $_nWave2 {("Registers" 29)}
+wvSetPosition -win $_nWave2 {("Registers" 28)}
+wvSetPosition -win $_nWave2 {("Registers" 27)}
+wvSetPosition -win $_nWave2 {("Registers" 26)}
+wvSetPosition -win $_nWave2 {("Registers" 25)}
+wvSetPosition -win $_nWave2 {("Registers" 24)}
+wvSetPosition -win $_nWave2 {("Registers" 23)}
+wvSetPosition -win $_nWave2 {("Registers" 24)}
+wvSetPosition -win $_nWave2 {("Registers" 25)}
+wvSetPosition -win $_nWave2 {("Registers" 26)}
+wvSetPosition -win $_nWave2 {("Registers" 27)}
+wvSetPosition -win $_nWave2 {("Registers" 28)}
+wvSetPosition -win $_nWave2 {("Registers" 29)}
+wvSetPosition -win $_nWave2 {("Registers" 30)}
+wvSetPosition -win $_nWave2 {("Registers" 31)}
+wvSetPosition -win $_nWave2 {("Registers" 32)}
+wvSetPosition -win $_nWave2 {("rvfi official" 0)}
+wvSetPosition -win $_nWave2 {("rvfi official/rvfi(rvfi_itf)" 0)}
+wvSetPosition -win $_nWave2 {("rvfi official" 0)}
+wvSetPosition -win $_nWave2 {("Registers" 32)}
+wvSetPosition -win $_nWave2 {("Registers" 31)}
+wvSetPosition -win $_nWave2 {("Registers" 30)}
+wvSetPosition -win $_nWave2 {("Registers" 28)}
+wvSetPosition -win $_nWave2 {("Registers" 27)}
+wvSetPosition -win $_nWave2 {("Registers" 25)}
+wvSetPosition -win $_nWave2 {("Registers" 23)}
+wvSetPosition -win $_nWave2 {("Registers" 22)}
+wvSetPosition -win $_nWave2 {("Registers" 21)}
+wvSetPosition -win $_nWave2 {("Registers" 20)}
+wvSetPosition -win $_nWave2 {("Registers" 21)}
+wvSetPosition -win $_nWave2 {("Registers" 22)}
+wvSetPosition -win $_nWave2 {("Registers" 23)}
+wvSetPosition -win $_nWave2 {("Registers" 22)}
+wvSetPosition -win $_nWave2 {("Registers" 21)}
+wvSetPosition -win $_nWave2 {("Registers" 20)}
+wvSetPosition -win $_nWave2 {("Registers" 19)}
+wvSetPosition -win $_nWave2 {("Registers" 18)}
+wvSetPosition -win $_nWave2 {("Registers" 17)}
+wvSetPosition -win $_nWave2 {("Registers" 16)}
+wvSetPosition -win $_nWave2 {("Registers" 15)}
+wvSetPosition -win $_nWave2 {("Registers" 14)}
+wvSetPosition -win $_nWave2 {("Registers" 13)}
+wvSetPosition -win $_nWave2 {("Registers" 12)}
+wvSetPosition -win $_nWave2 {("Registers" 11)}
+wvSetPosition -win $_nWave2 {("Registers" 10)}
+wvSetPosition -win $_nWave2 {("Registers" 9)}
+wvSetPosition -win $_nWave2 {("Registers" 8)}
+wvSetPosition -win $_nWave2 {("Registers" 7)}
+wvSetPosition -win $_nWave2 {("Registers" 6)}
+wvSetPosition -win $_nWave2 {("Registers" 5)}
+wvSetPosition -win $_nWave2 {("Registers" 4)}
+wvSetPosition -win $_nWave2 {("Registers" 3)}
+wvSetPosition -win $_nWave2 {("Registers" 2)}
+wvSetPosition -win $_nWave2 {("Registers" 1)}
+wvSetPosition -win $_nWave2 {("Registers" 0)}
+wvSetPosition -win $_nWave2 {("ALU" 29)}
+wvSetPosition -win $_nWave2 {("ALU" 28)}
+wvSetPosition -win $_nWave2 {("ALU" 27)}
+wvSetPosition -win $_nWave2 {("ALU" 26)}
+wvSetPosition -win $_nWave2 {("ALU" 25)}
+wvSetPosition -win $_nWave2 {("ALU" 24)}
+wvSetPosition -win $_nWave2 {("ALU" 23)}
+wvSetPosition -win $_nWave2 {("ALU" 22)}
+wvSetPosition -win $_nWave2 {("ALU" 21)}
+wvSetPosition -win $_nWave2 {("ALU" 20)}
+wvSetPosition -win $_nWave2 {("ALU" 19)}
+wvSetPosition -win $_nWave2 {("ALU" 18)}
+wvSetPosition -win $_nWave2 {("ALU" 17)}
+wvSetPosition -win $_nWave2 {("ALU" 16)}
+wvSetPosition -win $_nWave2 {("ALU" 15)}
+wvSetPosition -win $_nWave2 {("ALU" 14)}
+wvSetPosition -win $_nWave2 {("ALU" 13)}
+wvSetPosition -win $_nWave2 {("ALU" 12)}
+wvSetPosition -win $_nWave2 {("ALU" 11)}
+wvSetPosition -win $_nWave2 {("ALU" 10)}
+wvSetPosition -win $_nWave2 {("ALU" 9)}
+wvSetPosition -win $_nWave2 {("ALU" 8)}
+wvSetPosition -win $_nWave2 {("ALU" 7)}
+wvSetPosition -win $_nWave2 {("ALU" 6)}
+wvSetPosition -win $_nWave2 {("ALU" 5)}
+wvSetPosition -win $_nWave2 {("ALU" 6)}
+wvSetPosition -win $_nWave2 {("ALU" 7)}
+wvSetPosition -win $_nWave2 {("ALU" 6)}
+wvSetPosition -win $_nWave2 {("ALU" 5)}
+wvSetPosition -win $_nWave2 {("ALU" 4)}
+wvSetPosition -win $_nWave2 {("ALU" 3)}
+wvSetPosition -win $_nWave2 {("ALU" 2)}
+wvSetPosition -win $_nWave2 {("ALU" 1)}
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+wvSetPosition -win $_nWave2 {("Branch" 0)}
+wvSetPosition -win $_nWave2 {("Branch Predictor" 0)}
+wvSetPosition -win $_nWave2 {("Stalling" 0)}
+wvSetPosition -win $_nWave2 {("Cache" 0)}
+wvSetPosition -win $_nWave2 {("Memory" 0)}
+wvSetPosition -win $_nWave2 {("Pipeline Status" 9)}
+wvSetPosition -win $_nWave2 {("Pipeline Status" 8)}
+wvSetPosition -win $_nWave2 {("Pipeline Status" 9)}
+wvSetPosition -win $_nWave2 {("Memory" 0)}
+wvSetPosition -win $_nWave2 {("Cache" 0)}
+wvSetPosition -win $_nWave2 {("Stalling" 0)}
+wvSetPosition -win $_nWave2 {("Branch Predictor" 0)}
+wvSetPosition -win $_nWave2 {("Branch" 0)}
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+wvSetPosition -win $_nWave2 {("ALU" 1)}
+wvSetPosition -win $_nWave2 {("ALU" 2)}
+wvSetPosition -win $_nWave2 {("ALU" 3)}
+wvSetPosition -win $_nWave2 {("ALU" 4)}
+wvSetPosition -win $_nWave2 {("ALU" 5)}
+wvSetPosition -win $_nWave2 {("ALU" 6)}
+wvSetPosition -win $_nWave2 {("ALU" 7)}
+wvSetPosition -win $_nWave2 {("ALU" 6)}
+wvSetPosition -win $_nWave2 {("ALU" 5)}
+wvSetPosition -win $_nWave2 {("ALU" 4)}
+wvSetPosition -win $_nWave2 {("ALU" 3)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("ALU" 3)}
+wvSetPosition -win $_nWave2 {("ALU" 4)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 1144734798.578869 -snap {("ALU" 4)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvSetCursor -win $_nWave2 1145105016.992074 -snap {("Registers" 9)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 12
+wvSelectGroup -win $_nWave2 {ALU}
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+wvScrollUp -win $_nWave2 24
+wvScrollUp -win $_nWave2 6
+wvScrollUp -win $_nWave2 4
+wvSetCursor -win $_nWave2 1145095115.496773 -snap {("Pipeline Status" 5)}
+wvSetCursor -win $_nWave2 1145085680.509604 -snap {("Pipeline Status" 4)}
+wvSetCursor -win $_nWave2 1145084841.844077 -snap {("Pipeline Status" 4)}
+wvSetCursor -win $_nWave2 1145084988.611078 -snap {("Pipeline Status" 3)}
+wvSelectGroup -win $_nWave2 {ALU}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "ALU" 3 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+wvSelectSignal -win $_nWave2 {( "ALU" 3 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 2 )} 
+wvSelectSignal -win $_nWave2 {( "ALU" 3 )} 
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "funct3_IDEX" -line 28 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_addr_IDEX" -line 27 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "j_imm_IDEX" -line 25 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rs1_data_IDEX" -line 19 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "rs2_data_IDEX" -line 20 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "ctrl_IDEX" -line 31 -pos 1 -win $_nTrace1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollUp -win $_nWave2 4
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvSetCursor -win $_nWave2 1144734641.328416 -snap {("ALU" 8)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "RVFI" 6 )} 
+wvSetPosition -win $_nWave2 {("RVFI" 6)}
+wvExpandBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+wvSelectSignal -win $_nWave2 {( "RVFI" 6 )} 
+wvSetPosition -win $_nWave2 {("RVFI" 6)}
+wvCollapseBus -win $_nWave2
+wvSetPosition -win $_nWave2 {("RVFI" 6)}
+wvSetPosition -win $_nWave2 {("ALU" 0)}
+wvScrollUp -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 1 )} 
+wvSelectSignal -win $_nWave2 {( "Pipeline Status" 9 )} 
+wvSetPosition -win $_nWave2 {("Pipeline Status" 9)}
+srcHBSelect "mp4_tb.dut.DP.ID" -win $_nTrace1
+srcSetScope "mp4_tb.dut.DP.ID" -delim "." -win $_nTrace1
+srcHBSelect "mp4_tb.dut.DP.ID" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_IFID" -line 15 -pos 1 -win $_nTrace1
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 1144734746.161607 -snap {("Pipeline Status" 10)}
+wvScrollUp -win $_nWave2 1
+wvSetCursor -win $_nWave2 1144345715.432884 -snap {("Pipeline Status" 10)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 12
+wvScrollDown -win $_nWave2 2
+wvScrollDown -win $_nWave2 3
+wvScrollDown -win $_nWave2 4
+wvScrollDown -win $_nWave2 6
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvSelectSignal -win $_nWave2 {( "Registers" 9 )} 
+wvSetCursor -win $_nWave2 1145085240.210270 -snap {("Registers" 9)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 6
+wvZoom -win $_nWave2 1145048338.927119 1145172461.424992
+wvScrollUp -win $_nWave2 4
+wvScrollUp -win $_nWave2 3
+wvScrollUp -win $_nWave2 2
+wvScrollUp -win $_nWave2 12
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvSetCursor -win $_nWave2 1145085084.709681 -snap {("ALU" 8)}
+wvSetCursor -win $_nWave2 1144714343.542451 -snap {("ALU" 2)}
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+debReload
+debExit

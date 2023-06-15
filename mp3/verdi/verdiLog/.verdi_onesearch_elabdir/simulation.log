@@ -1,0 +1,108 @@
+Command: /home/davidm12/ece411/mp3/sim/./simv -l simulation.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1-1_Full64; Runtime version R-2020.12-SP1-1_Full64;  Oct  6 17:51 2022
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1-1, Linux x86_64/64bit, 04/20/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'dump.fsdb'
+*Verdi* : Begin traversing the scope (mp3_tb), layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+Compilation Successful
+Error: "/home/davidm12/ece411/mp3/hvl/param_memory.sv", 37: mp3_tb.tb.memory.unnamed$$_0: at time 5000 ps
+simultaneous read/write
+Reset Memory
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 69: mp3_tb.tb.memory.memread.f.error_check.read_steady: started at 385000ps failed at 385000ps
+	Offending 'itf.mcb.read'
+Grading Error: PMEM Read Error: Read deasserted early
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 69: mp3_tb.tb.memory.memread.f.error_check.read_steady: started at 695000ps failed at 695000ps
+	Offending 'itf.mcb.read'
+Grading Error: PMEM Read Error: Read deasserted early
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 69: mp3_tb.tb.memory.memread.f.error_check.read_steady: started at 1115000ps failed at 1115000ps
+	Offending 'itf.mcb.read'
+Grading Error: PMEM Read Error: Read deasserted early
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 69: mp3_tb.tb.memory.memread.f.error_check.read_steady: started at 1485000ps failed at 1485000ps
+	Offending 'itf.mcb.read'
+Grading Error: PMEM Read Error: Read deasserted early
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 69: mp3_tb.tb.memory.memread.f.error_check.read_steady: started at 1795000ps failed at 1795000ps
+	Offending 'itf.mcb.read'
+Grading Error: PMEM Read Error: Read deasserted early
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 128: mp3_tb.tb.memory.memwrite.f.error_check.write_steady: started at 2175000ps failed at 2175000ps
+	Offending 'itf.mcb.write'
+PMEM Write Error: Write deasserted early
+
+"/home/davidm12/ece411/mp3/hvl/param_memory.sv", 69: mp3_tb.tb.memory.memread.f.error_check.read_steady: started at 2375000ps failed at 2375000ps
+	Offending 'itf.mcb.read'
+Grading Error: PMEM Read Error: Read deasserted early
+-------- RVFI Monitor error 105 in channel 0: mp3_tb.monitor.ch0_handle_error at time 245500 --------
+Error message: mismatch in rd_wdata
+rvfi_valid = 1
+rvfi_order = 0000000000000009
+rvfi_insn = 402080b3
+rvfi_trap = 0
+rvfi_halt = 0
+rvfi_intr = 0
+rvfi_rs1_addr = 01
+rvfi_rs2_addr = 02
+rvfi_rs1_rdata = 000002c0
+rvfi_rs2_rdata = 00000100
+rvfi_rd_addr = 01
+rvfi_rd_wdata = 000003c0
+rvfi_pc_rdata = 00000084
+rvfi_pc_wdata = 00000088
+rvfi_mem_addr = 00000084
+rvfi_mem_rmask = 0
+rvfi_mem_wmask = 0
+rvfi_mem_rdata = 402080b3
+rvfi_mem_wdata = 00000000
+spec_valid = 1
+spec_trap = 0
+spec_rs1_addr = 01
+spec_rs2_addr = 02
+spec_rd_addr = 01
+spec_rd_wdata = 000001c0
+spec_pc_wdata = 00000088
+spec_mem_addr = 00000000
+spec_mem_rmask = 0
+spec_mem_wmask = 0
+spec_mem_wdata = 00000000
+-------- RVFI Monitor error 105 in channel 0: mp3_tb.monitor.ch0_handle_error at time 251500 --------
+Error message: mismatch in rd_wdata
+rvfi_valid = 1
+rvfi_order = 000000000000000a
+rvfi_insn = 402080b3
+rvfi_trap = 0
+rvfi_halt = 0
+rvfi_intr = 0
+rvfi_rs1_addr = 01
+rvfi_rs2_addr = 02
+rvfi_rs1_rdata = 000003c0
+rvfi_rs2_rdata = 00000100
+rvfi_rd_addr = 01
+rvfi_rd_wdata = 000004c0
+rvfi_pc_rdata = 00000088
+rvfi_pc_wdata = 0000008c
+rvfi_mem_addr = 00000088
+rvfi_mem_rmask = 0
+rvfi_mem_wmask = 0
+rvfi_mem_rdata = 402080b3
+rvfi_mem_wdata = 00000000
+spec_valid = 1
+spec_trap = 0
+spec_rs1_addr = 01
+spec_rs2_addr = 02
+spec_rd_addr = 01
+spec_rd_wdata = 000002c0
+spec_pc_wdata = 0000008c
+spec_mem_addr = 00000000
+spec_mem_rmask = 0
+spec_mem_wmask = 0
+spec_mem_wdata = 00000000
+$finish called from file "/home/davidm12/ece411/mp3/hvl/top.sv", line 67.
+$finish at simulation time               272500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2725000 ps
+CPU Time:      0.400 seconds;       Data structure size:   0.2Mb
+Thu Oct  6 17:51:05 2022

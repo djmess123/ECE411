@@ -1,0 +1,38 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "mult_types": [
+        "mult_types",
+        "ID70i",
+        "module",
+        2
+    ],
+    "grader_types": [
+        "grader_types",
+        "DEpSa",
+        "module",
+        3
+    ],
+    "multiplier_itf": [
+        "multiplier_itf",
+        "G2RVH",
+        "module",
+        4
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ]
+}

@@ -1,0 +1,4 @@
+Command Line: /software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/bin/Novas -ssf /home/davidm12/ece411/mp1/cacheline_adaptor/sim/dump.fsdb
+uname(Linux fastx3-12.ews.illinois.edu 4.18.0-372.19.1.el8_6.x86_64 #1 SMP Tue Aug 2 13:42:59 EDT 2022 x86_64)
+Disabled AskUser2 Message (Response 0): Close all windows and exit verdi?
+au time 282.194468 6.911136 3.661967 delta 295890944 295890944 total 787525632 787525632

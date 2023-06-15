@@ -1,0 +1,52 @@
+
+/tmp/tmp.cByflT1ozr/shorttest.s.obj:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00010060 <_start>:
+   10060:	00000517          	auipc	x10,0x0
+   10064:	04c50513          	addi	x10,x10,76 # 100ac <result>
+   10068:	00052023          	sw	x0,0(x10)
+   1006c:	00000097          	auipc	x1,0x0
+   10070:	0380a083          	lw	x1,56(x1) # 100a4 <bad>
+   10074:	00000117          	auipc	x2,0x0
+   10078:	03c12103          	lw	x2,60(x2) # 100b0 <good>
+   1007c:	001101b3          	add	x3,x2,x1
+   10080:	00000517          	auipc	x10,0x0
+   10084:	02c50513          	addi	x10,x10,44 # 100ac <result>
+   10088:	00352023          	sw	x3,0(x10)
+
+0001008c <halt>:
+   1008c:	00000063          	beqz	x0,1008c <halt>
+	...
+
+Disassembly of section .rodata:
+
+000100a4 <bad>:
+   100a4:	deadbeef          	jal	x29,fffeb68e <__global_pointer$+0xfffd9dd6>
+
+000100a8 <threshold>:
+   100a8:	0040                	addi	x8,x2,4
+	...
+
+000100ac <result>:
+   100ac:	7011                	c.lui	x0,0xfffe4
+   100ae:	          	0x600d1107
+
+000100b0 <good>:
+   100b0:	600d                	c.lui	x0,0x3
+   100b2:	600d                	c.lui	x0,0x3
+
+000100b4 <test>:
+   100b4:	0000                	unimp
+	...
+0000000 0517 0000 0513 04c5 2023 0005 0097 0000
+0000010 a083 0380 0117 0000 2103 03c1 01b3 0011
+0000020 0517 0000 0513 02c5 2023 0035 0063 0000
+0000030 0000 0000 0000 0000 0000 0000 0000 0000
+0000040 0000 0000 beef dead 0040 0000 7011 1107
+0000050 600d 600d 0000 0000                    
+0000058
+Target file /home/davidm12/ece411/mp3/sim/memory.lst exists.
+Overwrite? [y/N] Assembled testcode/shorttest.s and wrote memory contents to /home/davidm12/ece411/mp3/sim/memory.lst
